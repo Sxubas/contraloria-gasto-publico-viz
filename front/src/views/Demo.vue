@@ -21,7 +21,7 @@ export default {
       this.initViz({ key: 'Nivel nacional', values: res }, '#chart');
     });
 
-    d3.json('tree.json', (err, res) => {
+    d3.json('gastos-tree.json', (err, res) => {
       if (err) {
         console.error(err);
         return;
@@ -180,7 +180,7 @@ export default {
           .on('click', transition)
           .select('text')
           .text(name(d))
-          .attr('font-size', '0.8rem');
+          .attr('font-size', '0.72rem');
 
         const g1 = svg.insert('g', '.grandparent')
           .datum(d)
