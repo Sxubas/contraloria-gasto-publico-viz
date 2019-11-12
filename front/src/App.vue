@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="header-right-container">
-        <router-link to="/about">Más información</router-link>
+        <router-link to="/demo">Más información</router-link>
       </div>
     </div>
     <router-view/>

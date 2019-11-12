@@ -1,0 +1,3827 @@
+{
+  "1": {
+    "0": {
+      "count": 1030,
+      "value": 147265937,
+      "name": "DISPONIBILIDAD INICIAL",
+      "02": {
+        "count": 1994,
+        "value": 148675741,
+        "name": "Bancos"
+      },
+      "01": {
+        "count": 442,
+        "value": 37698157,
+        "name": "Caja"
+      },
+      "03": {
+        "count": 132,
+        "value": 6330667,
+        "name": "Inversiones Temporales"
+      }
+    },
+    "1": {
+      "count": 3341,
+      "value": 377873686,
+      "name": "INGRESOS CORRIENTES",
+      "01": {
+        "count": 1238,
+        "value": 226959098,
+        "name": "TRIBUTARIOS",
+        "01": {
+          "31": {
+            "count": 120,
+            "value": 6273597,
+            "name": "Vehículos Automotores"
+          },
+          "34": {
+            "count": 611,
+            "value": 44264994,
+            "name": "Circulación y Tránsito por Transporte Público"
+          },
+          "37": {
+            "count": 32,
+            "value": 3170260,
+            "name": "Registro y Anotación",
+            "01": {
+              "count": 81,
+              "value": 4362834,
+              "name": "Registro y Anotación Libre Destinación"
+            },
+            "03": {
+              "98": {
+                "count": 29,
+                "value": 1653624,
+                "name": "Registro y Anotación -Otras Destinaciones Específicas-"
+              },
+              "count": 23,
+              "value": 2185247,
+              "name": "Registro y Anotación Destinación Específica",
+              "01": {
+                "count": 45,
+                "value": 2316881,
+                "name": "Registro y Anotación -FONPET-"
+              },
+              "03": {
+                "count": 8,
+                "value": 600894,
+                "name": "Registro y Anotación -Salud-"
+              }
+            }
+          },
+          "40": {
+            "count": 2577,
+            "value": 247958349,
+            "name": "Predial Unificado"
+          },
+          "41": {
+            "count": 1001,
+            "value": 60127667,
+            "name": "Porcentaje del Impuesto Predial para Corporaciones Autónomas Regionales"
+          },
+          "43": {
+            "count": 83,
+            "value": 5117482,
+            "name": "Teléfonos"
+          },
+          "count": 1132,
+          "value": 229338228,
+          "name": "Impuestos Directos"
+        },
+        "02": {
+          "17": {
+            "count": 518,
+            "value": 48618430,
+            "name": "Impuesto al Transporte de Hidrocarburos"
+          },
+          "31": {
+            "count": 32,
+            "value": 4191715,
+            "name": "Impuesto al Consumo de Licores",
+            "01": {
+              "count": 32,
+              "value": 4412945,
+              "name": "De Producción Nacional",
+              "01": {
+                "count": 16,
+                "value": 2748928,
+                "name": "Producidos en el Departamento",
+                "01": {
+                  "count": 38,
+                  "value": 642908,
+                  "name": "Producidos en el Departamento Libre Destinación"
+                },
+                "03": {
+                  "98": {
+                    "count": 19,
+                    "value": 2846459,
+                    "name": "Producidos en el Departamento -Otras Destinaciones Específicas-"
+                  },
+                  "count": 12,
+                  "value": 2282246,
+                  "name": "Producidos en el Departamento Destinación Específica",
+                  "01": {
+                    "count": 21,
+                    "value": 1922309,
+                    "name": "Producidos en el Departamento -Salud-"
+                  },
+                  "03": {
+                    "count": 7,
+                    "value": 739528,
+                    "name": "Producidos en el Departamento -Educación-"
+                  }
+                }
+              },
+              "03": {
+                "count": 30,
+                "value": 4150858,
+                "name": "Otros de Producción Nacional",
+                "01": {
+                  "count": 89,
+                  "value": 6081587,
+                  "name": "Otros de Producción Nacional Libre Destinación"
+                },
+                "03": {
+                  "count": 22,
+                  "value": 4332431,
+                  "name": "Otros de Producción Nacional Destinación Específica",
+                  "01": {
+                    "count": 76,
+                    "value": 4934520,
+                    "name": "Otros de Producción Nacional -Salud-"
+                  },
+                  "03": {
+                    "count": 11,
+                    "value": 1826407,
+                    "name": "Otros de Producción Nacional -Educación-"
+                  }
+                }
+              }
+            },
+            "03": {
+              "count": 28,
+              "value": 1560444,
+              "name": "De Producción Extranjera",
+              "01": {
+                "count": 89,
+                "value": 3668103,
+                "name": "Otros de Producción Extranjera Libre Destinación"
+              },
+              "03": {
+                "count": 18,
+                "value": 1255388,
+                "name": "Otros de Producción Extranjera Destinación Específica",
+                "01": {
+                  "count": 52,
+                  "value": 4217474,
+                  "name": "Otros de Producción Extranjera -Salud-"
+                },
+                "03": {
+                  "count": 6,
+                  "value": 308300,
+                  "name": "Otros de Producción Extranjera -Educación-"
+                }
+              }
+            }
+          },
+          "32": {
+            "count": 21,
+            "value": 3135947,
+            "name": "Vinos",
+            "01": {
+              "count": 109,
+              "value": 9989061,
+              "name": "De Producción Nacional"
+            },
+            "03": {
+              "count": 92,
+              "value": 10032394,
+              "name": "De Producción Extranjera"
+            }
+          },
+          "33": {
+            "count": 33,
+            "value": 2496192,
+            "name": "Cerveza",
+            "01": {
+              "count": 33,
+              "value": 2423893,
+              "name": "Cerveza Producción Nacional",
+              "01": {
+                "count": 101,
+                "value": 3431903,
+                "name": "Cerveza Producción Nacional Libre Destinación"
+              },
+              "03": {
+                "count": 89,
+                "value": 7523456,
+                "name": "Cerveza Producción Nacional -Salud-"
+              }
+            },
+            "03": {
+              "count": 30,
+              "value": 2357257,
+              "name": "Cerveza Producción Extranjera",
+              "01": {
+                "count": 83,
+                "value": 4928852,
+                "name": "Cerveza Producción Extranjera Libre Destinación"
+              },
+              "03": {
+                "count": 78,
+                "value": 7121810,
+                "name": "Cerveza Producción Extranjera -Salud-"
+              }
+            }
+          },
+          "35": {
+            "count": 33,
+            "value": 2799700,
+            "name": "Cigarrillos y Tabaco",
+            "01": {
+              "98": {
+                "count": 33,
+                "value": 1420934,
+                "name": "De Fabricación Nacional -Otras Destinaciones Específicas-"
+              },
+              "count": 32,
+              "value": 2759773,
+              "name": "De Fabricación Nacional",
+              "01": {
+                "count": 91,
+                "value": 5222181,
+                "name": "De Fabricación Nacional Libre Destinación"
+              },
+              "03": {
+                "count": 43,
+                "value": 4495353,
+                "name": "De Fabricación Nacional -Deporte-"
+              }
+            },
+            "03": {
+              "count": 28,
+              "value": 2948148,
+              "name": "De Fabricación Extranjera",
+              "01": {
+                "count": 99,
+                "value": 6310585,
+                "name": "De Fabricación Extranjera Libre Destinación"
+              },
+              "03": {
+                "count": 32,
+                "value": 3840129,
+                "name": "De Fabricación Extranjera -Deporte-"
+              }
+            }
+          },
+          "36": {
+            "count": 72,
+            "value": 4429913,
+            "name": "Sobretasa Consumo Cigarrillo y Tabaco Elaborado"
+          },
+          "37": {
+            "count": 102,
+            "value": 11797284,
+            "name": "Degüello de Ganado Mayor"
+          },
+          "39": {
+            "count": 2503,
+            "value": 226424596,
+            "name": "Industria y Comercio"
+          },
+          "41": {
+            "count": 2,
+            "value": 11859,
+            "name": "Mercancías Extranjeras"
+          },
+          "43": {
+            "count": 2,
+            "value": 75678,
+            "name": "Tarjeta de Turísmo"
+          },
+          "45": {
+            "count": 2148,
+            "value": 105694548,
+            "name": "Avisos y Tableros"
+          },
+          "47": {
+            "count": 714,
+            "value": 35851603,
+            "name": "Publicidad Exterior Visual"
+          },
+          "49": {
+            "count": 1688,
+            "value": 91192885,
+            "name": "Delineación y Urbanismo"
+          },
+          "53": {
+            "count": 377,
+            "value": 23727686,
+            "name": "Impuesto de Ocupación de Vías"
+          },
+          "55": {
+            "11": {
+              "count": 26,
+              "value": 793549,
+              "name": "A las ventas por sistema de Clubes"
+            },
+            "13": {
+              "count": 522,
+              "value": 27483151,
+              "name": "Rifas"
+            },
+            "15": {
+              "count": 32,
+              "value": 908665,
+              "name": "Billetes, tiquetes, boletas de rifas y premios de las mismas"
+            },
+            "17": {
+              "count": 169,
+              "value": 7960610,
+              "name": "A las apuestas en toda clase de juegos permitidos"
+            },
+            "19": {
+              "count": 15,
+              "value": 834829,
+              "name": "De Casinos"
+            },
+            "21": {
+              "count": 15,
+              "value": 635249,
+              "name": "Sobre Apuestas Mutuas"
+            },
+            "23": {
+              "count": 3,
+              "value": 0,
+              "name": "Gravamenes a concursos Hípicos y Caninos"
+            },
+            "91": {
+              "count": 8,
+              "value": 2059943,
+              "name": "Porcentaje de juegos de suerte y azar para Colciencias"
+            },
+            "count": 496,
+            "value": 44309522,
+            "name": "Juegos de suerte y azar",
+            "01": {
+              "count": 59,
+              "value": 7046751,
+              "name": "A ganadores de sorteos ordinarios y extraordinarios"
+            },
+            "03": {
+              "count": 90,
+              "value": 13682523,
+              "name": "Loterías foráneas"
+            },
+            "05": {
+              "count": 109,
+              "value": 8257920,
+              "name": "Juegos de apuestas permanentes o chance"
+            },
+            "07": {
+              "count": 42,
+              "value": 2247446,
+              "name": "Derechos de explotación de loterías"
+            },
+            "09": {
+              "count": 188,
+              "value": 13575611,
+              "name": "Juegos promocionales municipales"
+            }
+          },
+          "57": {
+            "count": 515,
+            "value": 18189122,
+            "name": "Degüello de Ganado Menor"
+          },
+          "59": {
+            "count": 1877,
+            "value": 101703861,
+            "name": "Sobretasa Bomberil"
+          },
+          "61": {
+            "count": 1018,
+            "value": 219006432,
+            "name": "Sobretasa Consumo Gasolina Motor",
+            "01": {
+              "count": 1992,
+              "value": 218030094,
+              "name": "Sobretasa Consumo Gasolina Motor Libre Destinación"
+            },
+            "03": {
+              "count": 173,
+              "value": 13467245,
+              "name": "Sobretasa Consumo Gasolina Motor Destinación Específica"
+            }
+          },
+          "63": {
+            "11": {
+              "count": 2417,
+              "value": 317005137,
+              "name": "Estampilla Pro-Ancianos"
+            },
+            "13": {
+              "count": 332,
+              "value": 19090336,
+              "name": "Estampilla Pro-Universidad"
+            },
+            "15": {
+              "count": 14,
+              "value": 1100954,
+              "name": "Estampilla Pro-Asistencia Social"
+            },
+            "17": {
+              "count": 313,
+              "value": 14298722,
+              "name": "Estampilla Pro-Hospital"
+            },
+            "19": {
+              "count": 2416,
+              "value": 166269812,
+              "name": "Estampilla Pro-Cultura"
+            },
+            "93": {
+              "count": 55,
+              "value": 4074178,
+              "name": "Estampillas Fondos de Pensiones"
+            },
+            "98": {
+              "count": 629,
+              "value": 32641774,
+              "name": "Otras Estampillas"
+            },
+            "count": 1131,
+            "value": 366573794,
+            "name": "Estampillas",
+            "03": {
+              "count": 182,
+              "value": 15467864,
+              "name": "Estampilla Pro-Desarrollo"
+            },
+            "05": {
+              "count": 150,
+              "value": 10159350,
+              "name": "Estampilla Pro-Electrificación Rural"
+            },
+            "09": {
+              "count": 56,
+              "value": 7552849,
+              "name": "Estampilla Desarrollo Fronterizo"
+            },
+            "07": {
+              "count": 46,
+              "value": 781704,
+              "name": "Estampillas Pro-Turismo"
+            },
+            "01": {
+              "count": 13,
+              "value": 1621551,
+              "name": "Estampilla Pro-Palacio"
+            }
+          },
+          "65": {
+            "count": 1715,
+            "value": 142957999,
+            "name": "Alumbrado Público"
+          },
+          "67": {
+            "count": 109,
+            "value": 8225452,
+            "name": "Plusvalía"
+          },
+          "69": {
+            "count": 610,
+            "value": 57948768,
+            "name": "Registro de Marcas y Herretes"
+          },
+          "71": {
+            "count": 2,
+            "value": 151819,
+            "name": "Pesas y Medidas"
+          },
+          "73": {
+            "count": 2287,
+            "value": 197618707,
+            "name": "Contribución del 5% sobre contratos"
+          },
+          "98": {
+            "count": 1799,
+            "value": 99404898,
+            "name": "Otros Impuestos Indirectos"
+          },
+          "count": 1132,
+          "value": 260382941,
+          "name": "Impuestos Indirectos"
+        },
+        "03": {
+          "98": {
+            "count": 110,
+            "value": 6047662,
+            "name": "Otros Impuestos"
+          },
+          "count": 87,
+          "value": 10096626,
+          "name": "Impuestos",
+          "01": {
+            "count": 241,
+            "value": 36398764,
+            "name": "Sobretasa ambiental"
+          }
+        },
+        "04": {
+          "98": {
+            "count": 51,
+            "value": 5999485,
+            "name": "Otras Contribuciones"
+          },
+          "count": 28,
+          "value": 4733740,
+          "name": "Contribuciones",
+          "01": {
+            "count": 11,
+            "value": 806039,
+            "name": "Valorización"
+          },
+          "03": {
+            "count": 2,
+            "value": 44043,
+            "name": "Contribución Cafetera F.N.C."
+          },
+          "05": {
+            "count": 2,
+            "value": 235505,
+            "name": "Contribución Cafetera Particulares"
+          }
+        }
+      },
+      "02": {
+        "98": {
+          "11": {
+            "count": 30,
+            "value": 1095809,
+            "name": "Convenios docentes y asistenciales"
+          },
+          "13": {
+            "count": 9,
+            "value": 842445,
+            "name": "Convenios con Fondos Locales de Salud"
+          },
+          "15": {
+            "count": 886,
+            "value": 77049650,
+            "name": "Otros convenios"
+          },
+          "98": {
+            "count": 3282,
+            "value": 218411564,
+            "name": "Otros Ingresos No Tributarios no especificados"
+          },
+          "count": 1468,
+          "value": 183672370,
+          "name": "Otros Ingresos No Tributarios",
+          "09": {
+            "count": 37,
+            "value": 4406142,
+            "name": "Convenios de desempeño"
+          },
+          "05": {
+            "count": 11,
+            "value": 1208123,
+            "name": "Contraprestación de Concesiones"
+          },
+          "03": {
+            "count": 49,
+            "value": 2786714,
+            "name": "Cobro - Servicios Públicos"
+          },
+          "07": {
+            "count": 4,
+            "value": 308632,
+            "name": "Convenios Interadministrativos FIP"
+          }
+        },
+        "count": 3340,
+        "value": 369943607,
+        "name": "NO TRIBUTARIOS",
+        "01": {
+          "count": 1225,
+          "value": 239415648,
+          "name": "Tasas, Multas y Contribuciones",
+          "01": {
+            "11": {
+              "count": 200,
+              "value": 9045750,
+              "name": "Plaza de Ferias"
+            },
+            "13": {
+              "count": 331,
+              "value": 12577388,
+              "name": "Matadero Público"
+            },
+            "15": {
+              "count": 285,
+              "value": 13682373,
+              "name": "Licencias para Transporte de Ganado"
+            },
+            "17": {
+              "count": 201,
+              "value": 7578434,
+              "name": "Licencias y Patentes de Funcionamiento"
+            },
+            "19": {
+              "count": 1151,
+              "value": 44432890,
+              "name": "Expedición de Certificados y Paz y Salvos"
+            },
+            "21": {
+              "count": 13,
+              "value": 3234492,
+              "name": "Expedición de Pasaportes",
+              "03": {
+                "count": 9,
+                "value": 1242873,
+                "name": "Expedición de Pasaportes Destinación Específica"
+              },
+              "01": {
+                "count": 25,
+                "value": 2806904,
+                "name": "Expedición de Pasaportes Libre Destinación"
+              }
+            },
+            "23": {
+              "count": 2,
+              "value": 1634,
+              "name": "Tarjeta de Residentes y Residentes Temporales"
+            },
+            "25": {
+              "count": 16,
+              "value": 2291593,
+              "name": "Peaje Turístico"
+            },
+            "31": {
+              "count": 149,
+              "value": 4651124,
+              "name": "Publicaciones"
+            },
+            "33": {
+              "count": 26,
+              "value": 1286571,
+              "name": "Almotacen"
+            },
+            "35": {
+              "count": 332,
+              "value": 25746830,
+              "name": "Tasa por Ocupación de Vías"
+            },
+            "37": {
+              "98": {
+                "count": 901,
+                "value": 52214069,
+                "name": "Otras ventas de Bienes y Servicios"
+              },
+              "count": 438,
+              "value": 40780061,
+              "name": "Venta de Bienes y Servicios",
+              "03": {
+                "count": 21,
+                "value": 2423908,
+                "name": "Venta de Bienes y Servicios Instituciones Educativas"
+              },
+              "05": {
+                "count": 25,
+                "value": 1368019,
+                "name": "Venta de Bienes y Servicios Previsión Social"
+              },
+              "01": {
+                "count": 64,
+                "value": 2522921,
+                "name": "Venta de Bienes y Servicios Agropecuarios"
+              }
+            },
+            "39": {
+              "count": 1491,
+              "value": 55973010,
+              "name": "Arrendamientos"
+            },
+            "41": {
+              "count": 992,
+              "value": 50740441,
+              "name": "Alquiler de Maquinaria y Equipo"
+            },
+            "98": {
+              "count": 1785,
+              "value": 102484795,
+              "name": "Otras Tasas"
+            },
+            "count": 1172,
+            "value": 184232326,
+            "name": "Tasas",
+            "03": {
+              "count": 91,
+              "value": 5132067,
+              "name": "Sistematización"
+            },
+            "01": {
+              "count": 513,
+              "value": 47294827,
+              "name": "Tránsito y Transporte"
+            },
+            "05": {
+              "count": 520,
+              "value": 26552857,
+              "name": "Acueducto y Alcantarillado"
+            },
+            "06": {
+              "count": 491,
+              "value": 11057956,
+              "name": "Alcantarillado"
+            },
+            "07": {
+              "count": 574,
+              "value": 22613136,
+              "name": "Aseo"
+            },
+            "09": {
+              "count": 704,
+              "value": 24786006,
+              "name": "Plaza de Mercado"
+            },
+            "08": {
+              "count": 18,
+              "value": 1578332,
+              "name": "Energia"
+            }
+          },
+          "03": {
+            "11": {
+              "count": 77,
+              "value": 1003491,
+              "name": "Multas por Ocupación de Vías"
+            },
+            "13": {
+              "count": 2,
+              "value": 22093,
+              "name": "Multas por OCRE"
+            },
+            "15": {
+              "count": 2054,
+              "value": 123038588,
+              "name": "Intereses moratorios"
+            },
+            "98": {
+              "count": 2144,
+              "value": 123955138,
+              "name": "Otras Multas y Sanciones"
+            },
+            "count": 1124,
+            "value": 149803514,
+            "name": "Multas y Sanciones",
+            "01": {
+              "count": 669,
+              "value": 52173548,
+              "name": "Tránsito y Transporte"
+            },
+            "09": {
+              "count": 1174,
+              "value": 60301946,
+              "name": "Multas de Gobierno"
+            },
+            "05": {
+              "count": 232,
+              "value": 7181626,
+              "name": "Multas de Control Fiscal"
+            },
+            "07": {
+              "count": 249,
+              "value": 6237234,
+              "name": "Multas de Control Disciplinario"
+            },
+            "03": {
+              "count": 98,
+              "value": 5992804,
+              "name": "Recargos"
+            }
+          },
+          "05": {
+            "98": {
+              "count": 564,
+              "value": 31767948,
+              "name": "Otras Contribuciones"
+            },
+            "count": 305,
+            "value": 26831250,
+            "name": "Contribuciones",
+            "01": {
+              "count": 162,
+              "value": 5326089,
+              "name": "Contribución Especial por Valorización"
+            }
+          }
+        },
+        "02": {
+          "count": 1132,
+          "value": 42961713,
+          "name": "Transferencias",
+          "01": {
+            "count": 1130,
+            "value": 176760664,
+            "name": "Transferencias para Funcionamiento",
+            "07": {
+              "count": 296,
+              "value": 44639790,
+              "name": "Cuota de Auditaje"
+            },
+            "09": {
+              "count": 486,
+              "value": 35614556,
+              "name": "Cuotas partes pensionales"
+            },
+            "01": {
+              "count": 1077,
+              "value": 211296055,
+              "name": "Del Nivel Nacional",
+              "01": {
+                "98": {
+                  "count": 566,
+                  "value": 38991713,
+                  "name": "Otras Transferencias del Nivel Central Nacional"
+                },
+                "count": 1068,
+                "value": 218353768,
+                "name": "Del Nivel Central Nacional",
+                "01": {
+                  "count": 2281,
+                  "value": 247305260,
+                  "name": "Sistema General de Participaciones Propósito General Libre Destinación"
+                }
+              },
+              "03": {
+                "count": 165,
+                "value": 11968630,
+                "name": "De Entidades Descentralizadas Nacionales",
+                "01": {
+                  "count": 165,
+                  "value": 11968630,
+                  "name": "De Entidades No Financieras Nacionales",
+                  "03": {
+                    "98": {
+                      "count": 403,
+                      "value": 16574126,
+                      "name": "Otras Transferencias de Empresas No Financieras Nacionales"
+                    },
+                    "count": 165,
+                    "value": 11968630,
+                    "name": "De Empresas No Financieras Nacionales"
+                  }
+                }
+              }
+            },
+            "03": {
+              "count": 840,
+              "value": 97742422,
+              "name": "Del Nivel Departamental",
+              "01": {
+                "98": {
+                  "count": 1063,
+                  "value": 62651633,
+                  "name": "Otras Transferencias del Nivel Central Departamental"
+                },
+                "count": 833,
+                "value": 96971137,
+                "name": "Del Nivel Central Departamental",
+                "01": {
+                  "count": 1480,
+                  "value": 59882727,
+                  "name": "De Vehículos Automotores"
+                }
+              },
+              "03": {
+                "count": 91,
+                "value": 8594642,
+                "name": "De Entidades Descentralizadas Departamentales",
+                "01": {
+                  "count": 91,
+                  "value": 8594642,
+                  "name": "De Entidades No Financieras Departamentales",
+                  "03": {
+                    "98": {
+                      "count": 229,
+                      "value": 11293636,
+                      "name": "Otras Transferencias de Empresas No Financieras Departamentales"
+                    },
+                    "count": 91,
+                    "value": 8594642,
+                    "name": "De Empresas No Financieras Departamentales"
+                  }
+                }
+              }
+            },
+            "05": {
+              "count": 39,
+              "value": 2839260,
+              "name": "Del Nivel Municipal y/o Distrital",
+              "03": {
+                "count": 12,
+                "value": 1003162,
+                "name": "De Entidades Descentralizadas Municipales y/o Distritales",
+                "01": {
+                  "count": 12,
+                  "value": 1003162,
+                  "name": "De Entidades No Financieras Municipales y/o Distritales",
+                  "03": {
+                    "count": 27,
+                    "value": 1003160,
+                    "name": "De Empresas No Financieras Municipales y/o Distritales"
+                  }
+                }
+              },
+              "01": {
+                "count": 52,
+                "value": 2566024,
+                "name": "Del Nivel Central Municipal y/o Distrital"
+              }
+            }
+          },
+          "03": {
+            "count": 1132,
+            "value": 40436577,
+            "name": "Transferencias para Inversión",
+            "01": {
+              "count": 1132,
+              "value": 38004832,
+              "name": "Del Nivel Nacional",
+              "01": {
+                "11": {
+                  "11": {
+                    "count": 23,
+                    "value": 1854022,
+                    "name": "Fondo de Estupefacientes"
+                  },
+                  "98": {
+                    "count": 340,
+                    "value": 26382431,
+                    "name": "Otros Programas Nacionales - Salud"
+                  },
+                  "count": 140,
+                  "value": 19914429,
+                  "name": "Programas Nacionales - Salud",
+                  "01": {
+                    "count": 47,
+                    "value": 7975005,
+                    "name": "Campaña Directa Enferemedades de Transmisión por vectores ETV"
+                  },
+                  "03": {
+                    "count": 42,
+                    "value": 1183700,
+                    "name": "Campaña Directa Lepra"
+                  },
+                  "05": {
+                    "count": 40,
+                    "value": 3652580,
+                    "name": "Campaña Directa Tuberculosis"
+                  },
+                  "07": {
+                    "count": 1,
+                    "value": 0,
+                    "name": "Campañas Directas Desplazados"
+                  },
+                  "09": {
+                    "count": 6,
+                    "value": 692805,
+                    "name": "Programa de Centros de Regulación y Urgencias CRUE"
+                  }
+                },
+                "13": {
+                  "count": 3,
+                  "value": 51278,
+                  "name": "Programas Nacionales - Educación",
+                  "07": {
+                    "count": 6,
+                    "value": 31620,
+                    "name": "Red de Solidaridad"
+                  },
+                  "01": {
+                    "count": 2,
+                    "value": 15262,
+                    "name": "Ley 21/82"
+                  },
+                  "05": {
+                    "count": 5,
+                    "value": 205004,
+                    "name": "Atención a la Población Desplazada"
+                  }
+                },
+                "15": {
+                  "count": 1696,
+                  "value": 106645695,
+                  "name": "Cofinanciación"
+                },
+                "17": {
+                  "count": 1021,
+                  "value": 97721942,
+                  "name": "De Solidaridad y Garantías",
+                  "01": {
+                    "count": 1018,
+                    "value": 97278528,
+                    "name": "Subcuenta de solidaridad: regimén subsidiado",
+                    "01": {
+                      "count": 2270,
+                      "value": 115599810,
+                      "name": "Continuidad"
+                    },
+                    "03": {
+                      "count": 87,
+                      "value": 5432447,
+                      "name": "Ampliación"
+                    }
+                  },
+                  "03": {
+                    "count": 4,
+                    "value": 2248,
+                    "name": "Subcuenta Accidentes y eventos catastroficos (desplazados)"
+                  },
+                  "05": {
+                    "count": 9,
+                    "value": 450789,
+                    "name": "Subcuenta promoción de la salud (Programa de convivencia pácifica)"
+                  }
+                },
+                "19": {
+                  "count": 73,
+                  "value": 6269541,
+                  "name": "Regalías Indirectas"
+                },
+                "21": {
+                  "count": 9,
+                  "value": 334081,
+                  "name": "Fondo de Ahorro y Estabilización Macroeconómica"
+                },
+                "23": {
+                  "count": 18,
+                  "value": 958832,
+                  "name": "Fondo de Subsidio de la Sobretasa a la Gasolina Ley 488/98"
+                },
+                "25": {
+                  "count": 2,
+                  "value": 16015,
+                  "name": "Fondo de Desarrollo Departamental"
+                },
+                "98": {
+                  "count": 1662,
+                  "value": 126117179,
+                  "name": "Otras Transferencias del Nivel Central Nacional"
+                },
+                "count": 1132,
+                "value": 37143888,
+                "name": "Del Nivel Central Nacional",
+                "01": {
+                  "count": 1130,
+                  "value": 330970757,
+                  "name": "Sistema General de Participaciones -Educación-",
+                  "01": {
+                    "count": 525,
+                    "value": 43781148,
+                    "name": "S. G. P. Educación - Prestación de Servicios"
+                  },
+                  "05": {
+                    "count": 68,
+                    "value": 2410914,
+                    "name": "S. G. P. Educación - Cancelación de Prestaciones Sociales del Magisterio"
+                  },
+                  "03": {
+                    "count": 136,
+                    "value": 2570428,
+                    "name": "S. G. P. Educación - Aportes Patronales de Docentes y Directivos Docentes"
+                  },
+                  "07": {
+                    "count": 3695,
+                    "value": 456731894,
+                    "name": "S. G. P. Educación - Recursos de Calidad"
+                  }
+                },
+                "03": {
+                  "count": 1129,
+                  "value": 101061266,
+                  "name": "Sistema General de Participaciones -Salud-",
+                  "03": {
+                    "count": 477,
+                    "value": 75524182,
+                    "name": "S. G. P. Salud - Prestación de servicios a Población no Afiliada",
+                    "01": {
+                      "count": 460,
+                      "value": 24545974,
+                      "name": "S. G. P. Salud - Prestación de servicios a Población no Afiliada"
+                    },
+                    "03": {
+                      "count": 677,
+                      "value": 57554747,
+                      "name": "S. G. P. Salud - Aportes Patronales"
+                    }
+                  },
+                  "05": {
+                    "count": 2460,
+                    "value": 220270767,
+                    "name": "S. G. P. Salud - Salud Pública"
+                  },
+                  "01": {
+                    "count": 1093,
+                    "value": 110139118,
+                    "name": "S. G. P. Salud - Subsidio Demanda",
+                    "01": {
+                      "count": 2574,
+                      "value": 163981508,
+                      "name": "S. G. P. Salud - Subsidio Demanda Continuidad"
+                    },
+                    "03": {
+                      "count": 89,
+                      "value": 5242595,
+                      "name": "S. G. P. Salud - Subsidio Demanda Ampliación Cobertura"
+                    }
+                  }
+                },
+                "08": {
+                  "count": 3095,
+                  "value": 480990005,
+                  "name": "S. G. P. Agua Potable y Saneamiento Básico"
+                },
+                "06": {
+                  "count": 495,
+                  "value": 13233826,
+                  "name": "S. G. P. Atención Integral a la Primera Infancia"
+                },
+                "07": {
+                  "count": 2314,
+                  "value": 144853276,
+                  "name": "S. G. P. Alimentación Escolar"
+                },
+                "09": {
+                  "98": {
+                    "count": 5039,
+                    "value": 282271444,
+                    "name": "S. G. P. Propósito General Forsoza Inversión - Libre inversión"
+                  },
+                  "count": 1101,
+                  "value": 42652059,
+                  "name": "Sistema General de Participaciones Propósito General Forsoza Inversión",
+                  "03": {
+                    "count": 2270,
+                    "value": 116144058,
+                    "name": "S. G. P. Propósito General Forsoza Inversión - Deporte"
+                  },
+                  "05": {
+                    "count": 2246,
+                    "value": 94303194,
+                    "name": "S. G. P. Propósito General Forsoza Inversión - Cultura"
+                  },
+                  "07": {
+                    "count": 249,
+                    "value": 23476195,
+                    "name": "S. G. P. Propósito General Forsoza Inversión - FONPET"
+                  }
+                },
+                "05": {
+                  "count": 229,
+                  "value": 27923140,
+                  "name": "S. G. P. Rio Grande de la Magdalena"
+                }
+              },
+              "03": {
+                "count": 1054,
+                "value": 180227290,
+                "name": "De Entidades Descentralizadas Nacionales",
+                "01": {
+                  "count": 1054,
+                  "value": 180227290,
+                  "name": "De Entidades No Financieras Nacionales",
+                  "01": {
+                    "98": {
+                      "count": 239,
+                      "value": 17758457,
+                      "name": "Otras Transferencias de Entidades No Financieras Nacionales no consideradas Empresas"
+                    },
+                    "count": 343,
+                    "value": 58034165,
+                    "name": "De Entidades No Financieras Nacionales no consideradas Empresas",
+                    "01": {
+                      "count": 937,
+                      "value": 68365235,
+                      "name": "Cofinanciación"
+                    }
+                  },
+                  "03": {
+                    "98": {
+                      "count": 452,
+                      "value": 33774887,
+                      "name": "Otras Transferencias de Empresas No Financieras Nacionales"
+                    },
+                    "count": 1029,
+                    "value": 166878972,
+                    "name": "De Empresas No Financieras Nacionales",
+                    "01": {
+                      "count": 3458,
+                      "value": 179912450,
+                      "name": "Empresa para la Salud -ETESA-"
+                    },
+                    "05": {
+                      "count": 92,
+                      "value": 5441864,
+                      "name": "Transferencias E. S. P. Subsidios para Servicios Públicos"
+                    }
+                  }
+                }
+              }
+            },
+            "03": {
+              "count": 1035,
+              "value": 260305855,
+              "name": "Del Nivel Departamental",
+              "03": {
+                "count": 330,
+                "value": 41432028,
+                "name": "De Entidades Descentralizadas Departamentales",
+                "01": {
+                  "count": 330,
+                  "value": 41432028,
+                  "name": "De Entidades No Financieras Departamentales",
+                  "03": {
+                    "98": {
+                      "count": 531,
+                      "value": 30751502,
+                      "name": "Otras Transferencias de Empresas No Financieras Departamentales"
+                    },
+                    "count": 286,
+                    "value": 39057686,
+                    "name": "De Empresas No Financieras Departamentales",
+                    "03": {
+                      "count": 318,
+                      "value": 23572162,
+                      "name": "Empresas del Sector Eléctrico -de Ley-"
+                    },
+                    "01": {
+                      "count": 32,
+                      "value": 2015297,
+                      "name": "Transferencias E. S. P. Subsidios para Servicios Públicos"
+                    }
+                  },
+                  "01": {
+                    "count": 223,
+                    "value": 11671918,
+                    "name": "De Entidades No Financieras Departamentales no consideradas Empresas"
+                  }
+                }
+              },
+              "01": {
+                "98": {
+                  "count": 2960,
+                  "value": 244882546,
+                  "name": "Otras Transferencias del Nivel Central Departamental"
+                },
+                "count": 1015,
+                "value": 266203031,
+                "name": "Del Nivel Central Departamental",
+                "01": {
+                  "count": 4583,
+                  "value": 352231320,
+                  "name": "Cofinanciación"
+                },
+                "03": {
+                  "count": 75,
+                  "value": 6329815,
+                  "name": "Del Fondo de Desarrollo"
+                }
+              }
+            },
+            "05": {
+              "count": 209,
+              "value": 25713407,
+              "name": "Del Nivel Municipal y/o Distrital",
+              "01": {
+                "count": 179,
+                "value": 12370652,
+                "name": "Del Nivel Central Municipal y/o Distrital"
+              },
+              "03": {
+                "count": 153,
+                "value": 16715868,
+                "name": "De Entidades Descentralizadas Municipales y/o Distritales",
+                "01": {
+                  "count": 153,
+                  "value": 16715868,
+                  "name": "De Entidades No Financieras Municipales y/o Distritales",
+                  "01": {
+                    "count": 60,
+                    "value": 3617282,
+                    "name": "De Entidades No Financieras Municipales y/o Distritales no consideradas Empresas"
+                  },
+                  "03": {
+                    "98": {
+                      "count": 296,
+                      "value": 17575236,
+                      "name": "Otras Transferencias de Empresas No Financieras Municipales y/o Distritales"
+                    },
+                    "count": 140,
+                    "value": 15538168,
+                    "name": "De Empresas No Financieras Municipales y/o Distritales",
+                    "01": {
+                      "count": 114,
+                      "value": 6717765,
+                      "name": "Transferencias E. S. P. Subsidios para Servicios Públicos"
+                    }
+                  }
+                }
+              }
+            },
+            "07": {
+              "11": {
+                "count": 9,
+                "value": 64540,
+                "name": "Explotación Oro, Plata y Platino"
+              },
+              "13": {
+                "count": 2,
+                "value": 149,
+                "name": "Explotación y Exportación Esmeraldas"
+              },
+              "98": {
+                "count": 112,
+                "value": 6924334,
+                "name": "Otras Regalías"
+              },
+              "count": 109,
+              "value": 14853381,
+              "name": "Regalías",
+              "01": {
+                "count": 167,
+                "value": 8832595,
+                "name": "Regalías Petrolíferas"
+              },
+              "03": {
+                "count": 16,
+                "value": 656484,
+                "name": "Regalías Carboníferas"
+              },
+              "05": {
+                "count": 22,
+                "value": 695452,
+                "name": "Regalías por Gas Natural"
+              },
+              "09": {
+                "count": 2,
+                "value": 16947,
+                "name": "Regalías Hierro"
+              }
+            },
+            "09": {
+              "11": {
+                "count": 10,
+                "value": 190616,
+                "name": "Cigarrillos y Tabaco"
+              },
+              "13": {
+                "count": 2,
+                "value": 76983,
+                "name": "Transporte de Energía"
+              },
+              "14": {
+                "count": 2,
+                "value": 12923,
+                "name": "Transporte de Gas"
+              },
+              "17": {
+                "count": 6,
+                "value": 747778,
+                "name": "Vehículos Automotores"
+              },
+              "21": {
+                "count": 1,
+                "value": 104271,
+                "name": "Registro y Anotación",
+                "01": {
+                  "count": 2,
+                  "value": 92801,
+                  "name": "Registro y Anotación Libre Destinación"
+                },
+                "03": {
+                  "98": {
+                    "count": 4,
+                    "value": 11469,
+                    "name": "Registro y Anotación -Otras Destinaciones Específicas-"
+                  },
+                  "count": 1,
+                  "value": 11469,
+                  "name": "Registro y Anotación Destinación Específica"
+                }
+              },
+              "23": {
+                "count": 8,
+                "value": 26867,
+                "name": "Plusvalía"
+              },
+              "98": {
+                "count": 161,
+                "value": 6674438,
+                "name": "Otras Participaciones"
+              },
+              "count": 341,
+              "value": 21638423,
+              "name": "Participaciones",
+              "03": {
+                "count": 22,
+                "value": 3225469,
+                "name": "Iva Licores",
+                "01": {
+                  "count": 21,
+                  "value": 3779285,
+                  "name": "Iva Licores Nacionales",
+                  "01": {
+                    "count": 44,
+                    "value": 5328767,
+                    "name": "Iva Licores Nacionales -Salud 70%-"
+                  },
+                  "03": {
+                    "count": 23,
+                    "value": 2699285,
+                    "name": "Iva Licores Nacionales -Deportes 30%-"
+                  }
+                },
+                "03": {
+                  "count": 8,
+                  "value": 2041895,
+                  "name": "Iva Licores Extranjeros",
+                  "01": {
+                    "count": 14,
+                    "value": 2084086,
+                    "name": "Iva Licores Extranjeros -Salud 70%-"
+                  },
+                  "03": {
+                    "count": 12,
+                    "value": 1289672,
+                    "name": "Iva Licores Extranjeros -Deportes 30%-"
+                  }
+                }
+              },
+              "05": {
+                "count": 32,
+                "value": 9375306,
+                "name": "Iva Telefonía Celular",
+                "01": {
+                  "count": 34,
+                  "value": 1197359,
+                  "name": "Iva Telefonía Celular -Deporte-"
+                },
+                "03": {
+                  "count": 58,
+                  "value": 8917437,
+                  "name": "Iva Telefonía Celular -Cultura-"
+                }
+              },
+              "07": {
+                "count": 71,
+                "value": 1266032,
+                "name": "Sobretasa al ACPM"
+              },
+              "01": {
+                "count": 8,
+                "value": 120599,
+                "name": "Beneficencias y Loterías"
+              },
+              "09": {
+                "count": 444,
+                "value": 18552126,
+                "name": "Degüello de Ganado Mayor"
+              }
+            }
+          }
+        },
+        "03": {
+          "98": {
+            "count": 51,
+            "value": 2710246,
+            "name": "Por derechos de explotación de otros Monopolios"
+          },
+          "count": 28,
+          "value": 3249225,
+          "name": "Rentas por derechos de explotación de Monopolios",
+          "01": {
+            "count": 14,
+            "value": 1592024,
+            "name": "Por derechos de explotación de Monopolio de Licores",
+            "01": {
+              "count": 53,
+              "value": 2267836,
+              "name": "Por derechos de explotación de Monopolio de Licores -Salud-"
+            },
+            "03": {
+              "count": 24,
+              "value": 501275,
+              "name": "Por derechos de explotación de Monopolio de Licores -Educación-"
+            }
+          },
+          "03": {
+            "count": 26,
+            "value": 2720349,
+            "name": "Por derechos de explotación de Monopolio de Alcoholes Industriales"
+          }
+        },
+        "04": {
+          "11": {
+            "count": 4,
+            "value": 490862,
+            "name": "Licitaciones"
+          },
+          "13": {
+            "count": 171,
+            "value": 11423607,
+            "name": "Aprovechamientos de Entidades Descentralizadas"
+          },
+          "count": 1943,
+          "value": 280186035,
+          "name": "Operacionales",
+          "03": {
+            "11": {
+              "11": {
+                "count": 22,
+                "value": 296358,
+                "name": "Tratamiento de Aguas Residuales"
+              },
+              "13": {
+                "count": 59,
+                "value": 3718558,
+                "name": "Comercializacion"
+              },
+              "98": {
+                "count": 482,
+                "value": 29881725,
+                "name": "Otros Servicios de Alcantarillado"
+              },
+              "count": 375,
+              "value": 60889067,
+              "name": "Servicios de Alcantarillado",
+              "01": {
+                "count": 702,
+                "value": 44578844,
+                "name": "Cargo fijo"
+              },
+              "03": {
+                "count": 598,
+                "value": 43344062,
+                "name": "Consumo"
+              },
+              "05": {
+                "count": 244,
+                "value": 12274748,
+                "name": "Conexión"
+              },
+              "07": {
+                "count": 38,
+                "value": 2357762,
+                "name": "Por tratamiento de aguas residuales"
+              },
+              "09": {
+                "count": 35,
+                "value": 2750734,
+                "name": "Recoleccion y Transporte"
+              }
+            },
+            "13": {
+              "11": {
+                "count": 48,
+                "value": 5531691,
+                "name": "Manejo comercial y financiero del servicio"
+              },
+              "13": {
+                "count": 211,
+                "value": 17063331,
+                "name": "Recoleccion Domiciliaria"
+              },
+              "15": {
+                "count": 87,
+                "value": 4063043,
+                "name": "Transporte"
+              },
+              "17": {
+                "count": 151,
+                "value": 12437679,
+                "name": "Barrido y Limpieza"
+              },
+              "19": {
+                "count": 11,
+                "value": 430220,
+                "name": "Transferencia"
+              },
+              "21": {
+                "count": 105,
+                "value": 5122658,
+                "name": "Aprovechamiento"
+              },
+              "23": {
+                "count": 27,
+                "value": 588890,
+                "name": "Tratamiento"
+              },
+              "25": {
+                "count": 115,
+                "value": 13271233,
+                "name": "Disposicion Final"
+              },
+              "27": {
+                "count": 24,
+                "value": 893206,
+                "name": "Corte de Cesped y Poda de Arboles"
+              },
+              "29": {
+                "count": 39,
+                "value": 2092529,
+                "name": "Limpieza y Lavado de Areas Publicas"
+              },
+              "31": {
+                "count": 28,
+                "value": 673895,
+                "name": "Otros Especiales"
+              },
+              "33": {
+                "count": 136,
+                "value": 11855636,
+                "name": "Comercializacion"
+              },
+              "98": {
+                "count": 476,
+                "value": 28037199,
+                "name": "Otros Servicios de Aseo"
+              },
+              "count": 380,
+              "value": 78215304,
+              "name": "Servicios de Aseo",
+              "01": {
+                "count": 422,
+                "value": 44499962,
+                "name": "Tarifa Residencial"
+              },
+              "09": {
+                "count": 111,
+                "value": 7073314,
+                "name": "Por disposición final"
+              },
+              "03": {
+                "count": 84,
+                "value": 6225371,
+                "name": "Tarifa pequeños productores"
+              },
+              "05": {
+                "count": 36,
+                "value": 2619882,
+                "name": "Tarifa grandes productores"
+              },
+              "07": {
+                "count": 24,
+                "value": 1300574,
+                "name": "Venta de productos residuales"
+              }
+            },
+            "15": {
+              "25": {
+                "count": 6,
+                "value": 714616,
+                "name": "Consumo"
+              },
+              "29": {
+                "count": 2,
+                "value": 5711,
+                "name": "Cargo por conexión"
+              },
+              "98": {
+                "count": 6,
+                "value": 989178,
+                "name": "Otros Servicios de Gas Combustible"
+              },
+              "count": 6,
+              "value": 1720712,
+              "name": "Servicios de Gas y Combustible",
+              "05": {
+                "count": 4,
+                "value": 10603,
+                "name": "Uso de redes del Sistema de Gas Natural"
+              },
+              "09": {
+                "count": 2,
+                "value": 602084,
+                "name": "Por Vehículos, Tanques Gas Propano"
+              }
+            },
+            "17": {
+              "11": {
+                "count": 39,
+                "value": 3586158,
+                "name": "Traspasos"
+              },
+              "13": {
+                "count": 37,
+                "value": 2629190,
+                "name": "Licencias de conducción"
+              },
+              "15": {
+                "count": 35,
+                "value": 2384985,
+                "name": "Derechos de tránsito"
+              },
+              "17": {
+                "count": 5,
+                "value": 430547,
+                "name": "Transito libre y permisos"
+              },
+              "19": {
+                "count": 6,
+                "value": 83388,
+                "name": "Servicios de transporte terrestre"
+              },
+              "21": {
+                "11": {
+                  "count": 2,
+                  "value": 5660,
+                  "name": "Fletes"
+                },
+                "13": {
+                  "count": 2,
+                  "value": 747661,
+                  "name": "Vuelos especiales"
+                },
+                "15": {
+                  "count": 2,
+                  "value": 2429,
+                  "name": "Exajes"
+                },
+                "98": {
+                  "count": 2,
+                  "value": 2008,
+                  "name": "Otros Servicios de transporte aereo"
+                },
+                "count": 4,
+                "value": 1083218,
+                "name": "Servicios de transporte aéreo",
+                "01": {
+                  "count": 4,
+                  "value": 851192,
+                  "name": "Utilización de terminales"
+                },
+                "09": {
+                  "count": 2,
+                  "value": 221180,
+                  "name": "Pasajes"
+                }
+              },
+              "25": {
+                "count": 12,
+                "value": 2086568,
+                "name": "Servicios de transporte por Ductos"
+              },
+              "98": {
+                "count": 55,
+                "value": 3797653,
+                "name": "Otros Servicios de Tránsito y Transporte"
+              },
+              "count": 36,
+              "value": 5735752,
+              "name": "Servicios Tránsito y Transporte",
+              "01": {
+                "count": 35,
+                "value": 1905700,
+                "name": "Matrículas"
+              },
+              "07": {
+                "count": 24,
+                "value": 1618648,
+                "name": "Multas"
+              },
+              "09": {
+                "count": 30,
+                "value": 1648450,
+                "name": "Placas"
+              },
+              "03": {
+                "count": 9,
+                "value": 1634790,
+                "name": "Revisión"
+              },
+              "05": {
+                "count": 4,
+                "value": 589602,
+                "name": "Calcomanías"
+              }
+            },
+            "19": {
+              "15": {
+                "count": 8,
+                "value": 1073895,
+                "name": "Cargo fijo"
+              },
+              "17": {
+                "count": 4,
+                "value": 72368,
+                "name": "Cargo variable nacional"
+              },
+              "19": {
+                "count": 2,
+                "value": 8486,
+                "name": "Cargo variable internacional"
+              },
+              "21": {
+                "count": 7,
+                "value": 482686,
+                "name": "Aportes de conexión"
+              },
+              "23": {
+                "count": 2,
+                "value": 12468,
+                "name": "Recensión"
+              },
+              "25": {
+                "count": 1,
+                "value": 403711,
+                "name": "Reinstalación"
+              },
+              "27": {
+                "count": 6,
+                "value": 221023,
+                "name": "Acceso y uso de redes"
+              },
+              "29": {
+                "count": 4,
+                "value": 673025,
+                "name": "Acceso a Internet"
+              },
+              "31": {
+                "count": 4,
+                "value": 625417,
+                "name": "Alquiler de equipos"
+              },
+              "43": {
+                "count": 2,
+                "value": 616761,
+                "name": "Teléfonos públicos redes combinadas"
+              },
+              "45": {
+                "count": 2,
+                "value": 237564,
+                "name": "Circuitos dedicados"
+              },
+              "47": {
+                "count": 1,
+                "value": 0,
+                "name": "Pares aislados o domiciliarios"
+              },
+              "53": {
+                "count": 1,
+                "value": 0,
+                "name": "Participación en directorios"
+              },
+              "58": {
+                "count": 2,
+                "value": 3103,
+                "name": "Programación y Producción de Televisión"
+              },
+              "63": {
+                "count": 4,
+                "value": 179833,
+                "name": "Servicio portador"
+              },
+              "69": {
+                "count": 10,
+                "value": 156098,
+                "name": "Difusión de televisión"
+              },
+              "75": {
+                "count": 2,
+                "value": 738359,
+                "name": "Transferencia de datos"
+              },
+              "77": {
+                "count": 6,
+                "value": 1068893,
+                "name": "Servicios suplementarios"
+              },
+              "81": {
+                "count": 3,
+                "value": 10606,
+                "name": "Telecomunicaciones - Comercialización"
+              },
+              "98": {
+                "count": 31,
+                "value": 2458118,
+                "name": "Otros Servicios de Telecomunicaciones"
+              },
+              "count": 24,
+              "value": 1877609,
+              "name": "Servicios de Telecomunicaciones",
+              "09": {
+                "count": 1,
+                "value": 0,
+                "name": "Licencias"
+              },
+              "03": {
+                "count": 2,
+                "value": 244702,
+                "name": "Correo nacional"
+              },
+              "05": {
+                "count": 2,
+                "value": 20868,
+                "name": "Correo internacional"
+              },
+              "07": {
+                "count": 2,
+                "value": 3814,
+                "name": "Servicios informáticos"
+              }
+            },
+            "21": {
+              "11": {
+                "count": 7,
+                "value": 865673,
+                "name": "Certificaciones y derechos"
+              },
+              "13": {
+                "count": 10,
+                "value": 463470,
+                "name": "Sorteos extraordinarios"
+              },
+              "15": {
+                "count": 2,
+                "value": 3769,
+                "name": "Licencias"
+              },
+              "98": {
+                "count": 8,
+                "value": 304545,
+                "name": "Otros Juegos de Suerte y Azar"
+              },
+              "count": 25,
+              "value": 3001324,
+              "name": "Juegos de Suerte y Azar",
+              "01": {
+                "count": 13,
+                "value": 472616,
+                "name": "Loterías ordinarias",
+                "01": {
+                  "count": 26,
+                  "value": 1119887,
+                  "name": "Departamento"
+                },
+                "03": {
+                  "count": 26,
+                  "value": 281764,
+                  "name": "Resto del país"
+                }
+              },
+              "03": {
+                "count": 32,
+                "value": 2377873,
+                "name": "Apuestas permanentes"
+              },
+              "05": {
+                "count": 14,
+                "value": 1957599,
+                "name": "Rifas"
+              },
+              "07": {
+                "count": 4,
+                "value": 877730,
+                "name": "Sorteos"
+              },
+              "09": {
+                "count": 2,
+                "value": 283890,
+                "name": "Juegos en línea"
+              }
+            },
+            "23": {
+              "11": {
+                "count": 5,
+                "value": 916532,
+                "name": "Suministro de Bebidas y Alimentos"
+              },
+              "98": {
+                "count": 5,
+                "value": 206881,
+                "name": "Otros Servicios Hoteleros"
+              },
+              "count": 6,
+              "value": 236477,
+              "name": "Servicios Hoteleros",
+              "01": {
+                "count": 4,
+                "value": 137932,
+                "name": "Hotelería"
+              },
+              "09": {
+                "count": 4,
+                "value": 849187,
+                "name": "Alojamiento"
+              },
+              "07": {
+                "count": 4,
+                "value": 16607,
+                "name": "Turismo"
+              },
+              "05": {
+                "count": 2,
+                "value": 42203,
+                "name": "Promoción de vacaciones y recreación"
+              }
+            },
+            "24": {
+              "11": {
+                "count": 21,
+                "value": 2080984,
+                "name": "Intereses y Descuento Amortizado de Préstamos Concedidos"
+              },
+              "17": {
+                "count": 5,
+                "value": 277391,
+                "name": "Rendimiento por Corrección Monetaria"
+              },
+              "23": {
+                "count": 6,
+                "value": 934973,
+                "name": "Administracion de Cartera"
+              },
+              "31": {
+                "count": 2,
+                "value": 730812,
+                "name": "Operaciones de Fondos de Garantías - Prima Costo de Garantía"
+              },
+              "98": {
+                "count": 79,
+                "value": 6430425,
+                "name": "Otros Servicios Financieros"
+              },
+              "count": 72,
+              "value": 9644555,
+              "name": "Servicios Financieros",
+              "05": {
+                "count": 67,
+                "value": 3810439,
+                "name": "Intereses de Tesorería"
+              },
+              "07": {
+                "count": 86,
+                "value": 4850806,
+                "name": "Comisiones"
+              },
+              "01": {
+                "count": 12,
+                "value": 57778,
+                "name": "Amortizaciones"
+              },
+              "03": {
+                "count": 87,
+                "value": 9552467,
+                "name": "Intereses sobre Créditos"
+              },
+              "09": {
+                "count": 4,
+                "value": 622880,
+                "name": "Intereses y Descuento Amortizado de Inversiones Financieras"
+              }
+            },
+            "27": {
+              "11": {
+                "count": 3,
+                "value": 396508,
+                "name": "Antecedentes y certificaciones"
+              },
+              "13": {
+                "count": 8,
+                "value": 228941,
+                "name": "Carnés"
+              },
+              "15": {
+                "count": 9,
+                "value": 1987202,
+                "name": "Tarjetas profesionales"
+              },
+              "98": {
+                "count": 5,
+                "value": 30521,
+                "name": "Otros Servicios de Documentación e Identificación"
+              },
+              "count": 17,
+              "value": 2613710,
+              "name": "Servicios de Documentación e Información",
+              "01": {
+                "count": 2,
+                "value": 37407,
+                "name": "Certificaciones y derechos"
+              },
+              "09": {
+                "count": 14,
+                "value": 611389,
+                "name": "Salvo conductos"
+              }
+            },
+            "29": {
+              "98": {
+                "count": 2,
+                "value": 12303,
+                "name": "Otros Servicios Informáticos"
+              },
+              "count": 5,
+              "value": 480522,
+              "name": "Servicios Informáticos",
+              "07": {
+                "count": 2,
+                "value": 5258,
+                "name": "De asistencia técnica"
+              },
+              "01": {
+                "count": 4,
+                "value": 163564,
+                "name": "De procesamiento"
+              },
+              "03": {
+                "count": 3,
+                "value": 299397,
+                "name": "De desarrollo e implementación de software"
+              }
+            },
+            "31": {
+              "11": {
+                "count": 12,
+                "value": 925342,
+                "name": "Servicios de almacenamiento y pesaje"
+              },
+              "13": {
+                "count": 24,
+                "value": 1735882,
+                "name": "Publicidad y Propaganda"
+              },
+              "17": {
+                "count": 2,
+                "value": 47003,
+                "name": "Proveedurías"
+              },
+              "19": {
+                "count": 35,
+                "value": 1576873,
+                "name": "Comercialización"
+              },
+              "21": {
+                "count": 2,
+                "value": 53449,
+                "name": "Copropiedad"
+              },
+              "23": {
+                "count": 60,
+                "value": 3827555,
+                "name": "Certificados"
+              },
+              "25": {
+                "count": 79,
+                "value": 11411692,
+                "name": "Licencias"
+              },
+              "27": {
+                "count": 249,
+                "value": 27093489,
+                "name": "Administración de proyectos"
+              },
+              "28": {
+                "count": 8,
+                "value": 773772,
+                "name": "Administración y Operación de Mercados"
+              },
+              "29": {
+                "count": 35,
+                "value": 3463251,
+                "name": "Comisiones"
+              },
+              "31": {
+                "count": 12,
+                "value": 666866,
+                "name": "Servicios Recreativos, Culturales y Deportivos"
+              },
+              "33": {
+                "count": 3,
+                "value": 19523,
+                "name": "Servicios de Investigación Científica y Tecnológica"
+              },
+              "35": {
+                "count": 16,
+                "value": 1342161,
+                "name": "Servicio de Matadero"
+              },
+              "37": {
+                "count": 15,
+                "value": 2714539,
+                "name": "Organizacion de Eventos"
+              },
+              "39": {
+                "count": 2,
+                "value": 1595,
+                "name": "Servicios de Lavandería"
+              },
+              "41": {
+                "count": 2,
+                "value": 521842,
+                "name": "Servicios de Seguridad y Escolta"
+              },
+              "43": {
+                "count": 14,
+                "value": 1940552,
+                "name": "Servicios de Parqueadero"
+              },
+              "98": {
+                "count": 800,
+                "value": 73038193,
+                "name": "Otros Servicios no especificados"
+              },
+              "count": 445,
+              "value": 64825116,
+              "name": "Otros Servicios",
+              "01": {
+                "count": 133,
+                "value": 16380852,
+                "name": "Tarifas"
+              },
+              "09": {
+                "count": 22,
+                "value": 2454161,
+                "name": "Servicios informativos"
+              },
+              "07": {
+                "count": 47,
+                "value": 2088906,
+                "name": "Asistencia técnica"
+              },
+              "05": {
+                "count": 5,
+                "value": 210010,
+                "name": "Transferencia de tecnología"
+              },
+              "03": {
+                "count": 8,
+                "value": 1383007,
+                "name": "Servicios de apoyo industrial"
+              }
+            },
+            "count": 1823,
+            "value": 268624204,
+            "name": "Venta de Servicios",
+            "05": {
+              "10": {
+                "count": 304,
+                "value": 15519701,
+                "name": "Copagos y cuotas moderadoras"
+              },
+              "12": {
+                "count": 1278,
+                "value": 61778679,
+                "name": "Seguro obligatorio de accidentes de tránsito (SOAT)"
+              },
+              "14": {
+                "count": 209,
+                "value": 14548717,
+                "name": "Solidaridad y Garantías",
+                "01": {
+                  "count": 163,
+                  "value": 6365139,
+                  "name": "Fondo de Solidaridad y Garantías (FOSYGA)"
+                },
+                "03": {
+                  "count": 170,
+                  "value": 8437380,
+                  "name": "Eventos catastróficos y accidentes de tránsito (ECAT)"
+                }
+              },
+              "16": {
+                "count": 1352,
+                "value": 116589003,
+                "name": "Plan de intervenciones colectivas (PIC)"
+              },
+              "18": {
+                "count": 1063,
+                "value": 51105791,
+                "name": "Regímenes especiales"
+              },
+              "98": {
+                "11": {
+                  "count": 287,
+                  "value": 18799958,
+                  "name": "Entes Territoriales"
+                },
+                "98": {
+                  "count": 1211,
+                  "value": 71690999,
+                  "name": "Otros Servicios de Salud no especificados"
+                },
+                "count": 888,
+                "value": 115629229,
+                "name": "Otros Servicios de Salud",
+                "07": {
+                  "count": 1279,
+                  "value": 53385163,
+                  "name": "Particulares"
+                },
+                "01": {
+                  "count": 221,
+                  "value": 17108343,
+                  "name": "Promoción y prevención"
+                },
+                "05": {
+                  "count": 559,
+                  "value": 25862880,
+                  "name": "Instituciones prestadoras de servicios de salud"
+                },
+                "09": {
+                  "count": 52,
+                  "value": 5301619,
+                  "name": "Fondos Locales de Salud"
+                },
+                "03": {
+                  "count": 2,
+                  "value": 50000,
+                  "name": "Atención pre-hospitalaria (APH)"
+                }
+              },
+              "count": 948,
+              "value": 102497648,
+              "name": "Servicios de Salud",
+              "02": {
+                "count": 833,
+                "value": 131026572,
+                "name": "Régimen Contributivo",
+                "03": {
+                  "count": 1378,
+                  "value": 111635523,
+                  "name": "No Capitados"
+                },
+                "01": {
+                  "count": 375,
+                  "value": 28957741,
+                  "name": "Capitados"
+                }
+              },
+              "04": {
+                "count": 880,
+                "value": 129287272,
+                "name": "Régimen Subsidiado",
+                "01": {
+                  "count": 1571,
+                  "value": 123934184,
+                  "name": "Capitados"
+                },
+                "03": {
+                  "count": 536,
+                  "value": 28929108,
+                  "name": "No Capitados"
+                }
+              },
+              "06": {
+                "count": 628,
+                "value": 100284315,
+                "name": "Atención a la población pobre en lo no cubierto con subsidios a la demanda",
+                "03": {
+                  "count": 516,
+                  "value": 46067529,
+                  "name": "No Capitados"
+                },
+                "01": {
+                  "count": 715,
+                  "value": 64044052,
+                  "name": "Capitados"
+                }
+              },
+              "08": {
+                "count": 766,
+                "value": 44218558,
+                "name": "Cuotas de recuperación"
+              }
+            },
+            "01": {
+              "11": {
+                "count": 6,
+                "value": 674307,
+                "name": "Habilitaciones"
+              },
+              "13": {
+                "count": 6,
+                "value": 893816,
+                "name": "Licencias"
+              },
+              "25": {
+                "count": 2,
+                "value": 1484,
+                "name": "Educacion Formal - Superior Formacion Tecnica Profesional"
+              },
+              "27": {
+                "count": 1,
+                "value": 15689,
+                "name": "Educacion Formal - Superior Formacion Tecnologica"
+              },
+              "29": {
+                "count": 16,
+                "value": 556357,
+                "name": "Educacion Formal - Superior Formacion Profesional"
+              },
+              "31": {
+                "count": 3,
+                "value": 436884,
+                "name": "Educacion Formal- Superior Postgrados"
+              },
+              "37": {
+                "count": 2,
+                "value": 1775,
+                "name": "Educacion No Formal - Validacion de Niveles y Grados"
+              },
+              "39": {
+                "count": 8,
+                "value": 934147,
+                "name": "Educacion No Formal - Formacion Extensiva"
+              },
+              "41": {
+                "count": 4,
+                "value": 28932,
+                "name": "Educacion Informal - Continuada"
+              },
+              "47": {
+                "count": 6,
+                "value": 133894,
+                "name": "Servicios Conexos a la Educacion"
+              },
+              "98": {
+                "count": 137,
+                "value": 14983698,
+                "name": "Otros Servicios Educativos"
+              },
+              "count": 85,
+              "value": 6636020,
+              "name": "Servicios Educativos",
+              "01": {
+                "count": 175,
+                "value": 8674917,
+                "name": "Matriculas e Inscripciones"
+              },
+              "09": {
+                "count": 64,
+                "value": 3686637,
+                "name": "Certificados"
+              },
+              "03": {
+                "count": 34,
+                "value": 2969958,
+                "name": "Habilitaciones"
+              },
+              "05": {
+                "count": 39,
+                "value": 2986930,
+                "name": "Programas Especiales"
+              },
+              "07": {
+                "count": 6,
+                "value": 78382,
+                "name": "Rendimientos sobre Créditos"
+              }
+            },
+            "03": {
+              "98": {
+                "count": 14,
+                "value": 757870,
+                "name": "Otros Servicios de Previsión Social"
+              },
+              "count": 10,
+              "value": 1615513,
+              "name": "Servicios de Previsión Social",
+              "05": {
+                "count": 2,
+                "value": 17193,
+                "name": "Licencias"
+              },
+              "03": {
+                "count": 4,
+                "value": 823287,
+                "name": "Programas Especiales"
+              },
+              "01": {
+                "count": 2,
+                "value": 17162,
+                "name": "Asistencia Social"
+              }
+            },
+            "07": {
+              "11": {
+                "count": 30,
+                "value": 1578943,
+                "name": "Uso de líneas y redes"
+              },
+              "13": {
+                "count": 20,
+                "value": 2080146,
+                "name": "Por servicio de conexión"
+              },
+              "15": {
+                "count": 5,
+                "value": 221108,
+                "name": "Administración de centros de control y despacho"
+              },
+              "17": {
+                "count": 6,
+                "value": 149302,
+                "name": "Cargo fijo"
+              },
+              "19": {
+                "count": 44,
+                "value": 2899726,
+                "name": "Consumo"
+              },
+              "21": {
+                "count": 13,
+                "value": 654288,
+                "name": "Consumo sin medición"
+              },
+              "23": {
+                "count": 16,
+                "value": 1941803,
+                "name": "Generación"
+              },
+              "25": {
+                "count": 4,
+                "value": 22091,
+                "name": "Transmisión"
+              },
+              "27": {
+                "count": 9,
+                "value": 242378,
+                "name": "Distribución"
+              },
+              "29": {
+                "count": 9,
+                "value": 1123191,
+                "name": "Comercialización"
+              },
+              "98": {
+                "count": 82,
+                "value": 4667546,
+                "name": "Otros Servicios de Energía"
+              },
+              "count": 66,
+              "value": 13811461,
+              "name": "Servicios de Energía",
+              "01": {
+                "count": 20,
+                "value": 1436632,
+                "name": "Instalaciones"
+              },
+              "03": {
+                "count": 49,
+                "value": 5095120,
+                "name": "Alumbrado Público"
+              },
+              "05": {
+                "count": 35,
+                "value": 2780597,
+                "name": "Reconexiones"
+              },
+              "09": {
+                "count": 14,
+                "value": 2447361,
+                "name": "Ventas en bolsa y/o corto plazo",
+                "01": {
+                  "count": 22,
+                  "value": 2165744,
+                  "name": "Ingresos del sistema de transmisión nacional"
+                },
+                "03": {
+                  "count": 14,
+                  "value": 999493,
+                  "name": "Ingresos del sistema de transmisión regional"
+                }
+              },
+              "07": {
+                "98": {
+                  "count": 2,
+                  "value": 81135,
+                  "name": "Otras Ventas a largo plazo"
+                },
+                "count": 10,
+                "value": 2693454,
+                "name": "Ventas a largo plazo",
+                "03": {
+                  "count": 5,
+                  "value": 654241,
+                  "name": "Al resto del sector público"
+                },
+                "05": {
+                  "count": 6,
+                  "value": 628303,
+                  "name": "Al sector privado"
+                },
+                "01": {
+                  "count": 12,
+                  "value": 1898451,
+                  "name": "Al sector eléctrico público"
+                }
+              }
+            },
+            "09": {
+              "11": {
+                "count": 60,
+                "value": 3620865,
+                "name": "Venta en bloque"
+              },
+              "13": {
+                "count": 16,
+                "value": 976256,
+                "name": "Venta de agua cruda"
+              },
+              "15": {
+                "count": 10,
+                "value": 35958,
+                "name": "Abastecimiento"
+              },
+              "17": {
+                "count": 16,
+                "value": 740093,
+                "name": "Distribución"
+              },
+              "19": {
+                "count": 77,
+                "value": 3300787,
+                "name": "Comercialización"
+              },
+              "98": {
+                "count": 665,
+                "value": 44874875,
+                "name": "Otros Servicios de Acueducto"
+              },
+              "count": 375,
+              "value": 80712534,
+              "name": "Servicios de Acueducto",
+              "01": {
+                "count": 686,
+                "value": 55478584,
+                "name": "Cargo Fijo"
+              },
+              "03": {
+                "count": 693,
+                "value": 61236971,
+                "name": "Consumo"
+              },
+              "07": {
+                "count": 429,
+                "value": 20848060,
+                "name": "Conexión"
+              },
+              "09": {
+                "count": 353,
+                "value": 24462404,
+                "name": "Reconexiones"
+              },
+              "05": {
+                "count": 63,
+                "value": 2970518,
+                "name": "Consumo sin medición"
+              }
+            }
+          },
+          "07": {
+            "count": 657,
+            "value": 43499378,
+            "name": "Arrendamientos"
+          },
+          "01": {
+            "10": {
+              "count": 1,
+              "value": 1511,
+              "name": "Ventas de café",
+              "01": {
+                "count": 2,
+                "value": 397166,
+                "name": "Ventas de café al exterior"
+              },
+              "03": {
+                "count": 2,
+                "value": 1044,
+                "name": "Ventas de café verde exportación"
+              },
+              "05": {
+                "count": 2,
+                "value": 69332,
+                "name": "Ventas de café consumo interno"
+              }
+            },
+            "11": {
+              "count": 24,
+              "value": 481272,
+              "name": "Productos Agrícolas"
+            },
+            "12": {
+              "count": 3,
+              "value": 4908,
+              "name": "Productos Pecuarios"
+            },
+            "13": {
+              "count": 13,
+              "value": 1603702,
+              "name": "Productos Forestales"
+            },
+            "15": {
+              "count": 7,
+              "value": 481639,
+              "name": "Recursos Piscícolas"
+            },
+            "16": {
+              "count": 1,
+              "value": 0,
+              "name": "Semovientes"
+            },
+            "17": {
+              "count": 3,
+              "value": 16841,
+              "name": "Productos Artesanales"
+            },
+            "21": {
+              "count": 8,
+              "value": 229226,
+              "name": "Subproductos y Residuos"
+            },
+            "23": {
+              "count": 18,
+              "value": 3720283,
+              "name": "Productos Químicos"
+            },
+            "25": {
+              "count": 9,
+              "value": 420251,
+              "name": "Productos Alimenticios Manufacturados"
+            },
+            "26": {
+              "count": 4,
+              "value": 82868,
+              "name": "Otros Productos Manufacturados"
+            },
+            "27": {
+              "count": 2,
+              "value": 325160,
+              "name": "Recursos Bélicos y Explosivos"
+            },
+            "29": {
+              "count": 4,
+              "value": 6834,
+              "name": "Agua Tratada"
+            },
+            "31": {
+              "count": 45,
+              "value": 1526681,
+              "name": "Medicamentos"
+            },
+            "33": {
+              "count": 2,
+              "value": 68054,
+              "name": "Medicamentos de uso Veterinario"
+            },
+            "35": {
+              "count": 21,
+              "value": 2896192,
+              "name": "Impresos y Publicaciones"
+            },
+            "37": {
+              "count": 8,
+              "value": 1386731,
+              "name": "Construcciones Terminadas"
+            },
+            "39": {
+              "count": 4,
+              "value": 151941,
+              "name": "Productos de la Gaceta"
+            },
+            "98": {
+              "count": 281,
+              "value": 18520574,
+              "name": "Otras Ventas de Bienes"
+            },
+            "count": 203,
+            "value": 22658836,
+            "name": "Venta de Bienes",
+            "07": {
+              "count": 6,
+              "value": 410122,
+              "name": "Licores",
+              "01": {
+                "count": 4,
+                "value": 4377,
+                "name": "Producidos fuera del Departamento"
+              },
+              "03": {
+                "count": 8,
+                "value": 405745,
+                "name": "Producidos en el Departamento"
+              }
+            },
+            "09": {
+              "count": 8,
+              "value": 145088,
+              "name": "Alcoholes Industriales"
+            },
+            "01": {
+              "98": {
+                "count": 6,
+                "value": 60745,
+                "name": "Otras Ventas Nacionales de Combustible"
+              },
+              "count": 3,
+              "value": 60745,
+              "name": "Ventas Nacionales de Combustible"
+            },
+            "03": {
+              "98": {
+                "count": 4,
+                "value": 40747,
+                "name": "Otras Exportaciones de Combustible"
+              },
+              "count": 2,
+              "value": 40747,
+              "name": "Exportaciones de Combustible"
+            }
+          },
+          "05": {
+            "11": {
+              "count": 3,
+              "value": 39921,
+              "name": "Productos Agrícolas"
+            },
+            "13": {
+              "98": {
+                "count": 8,
+                "value": 1917345,
+                "name": "Otros Productos Pecuarios"
+              },
+              "count": 8,
+              "value": 2327520,
+              "name": "Productos Pecuarios",
+              "03": {
+                "count": 7,
+                "value": 410175,
+                "name": "Semovientes"
+              }
+            },
+            "15": {
+              "count": 2,
+              "value": 15000,
+              "name": "Productos Forestales"
+            },
+            "23": {
+              "count": 2,
+              "value": 1067,
+              "name": "Productos Químicos"
+            },
+            "29": {
+              "count": 1,
+              "value": 0,
+              "name": "Material Reactivo"
+            },
+            "31": {
+              "count": 2,
+              "value": 45208,
+              "name": "Agua Tratada"
+            },
+            "33": {
+              "count": 52,
+              "value": 1690675,
+              "name": "Medicamentos"
+            },
+            "37": {
+              "count": 16,
+              "value": 2203716,
+              "name": "Impresos y Publicaciones"
+            },
+            "39": {
+              "count": 7,
+              "value": 846781,
+              "name": "Construcciones para la Venta"
+            },
+            "98": {
+              "count": 170,
+              "value": 13084979,
+              "name": "Otras Operaciones Comerciales"
+            },
+            "count": 116,
+            "value": 11776348,
+            "name": "Operaciones Comerciales",
+            "09": {
+              "count": 5,
+              "value": 80346,
+              "name": "Terrenos"
+            }
+          },
+          "09": {
+            "count": 33,
+            "value": 1442582,
+            "name": "Alquiler de Maquinaria y Equipo"
+          }
+        },
+        "05": {
+          "count": 1342,
+          "value": 235353127,
+          "name": "Aportes",
+          "05": {
+            "count": 1211,
+            "value": 199183189,
+            "name": "Aportes de Otras Entidades",
+            "03": {
+              "count": 545,
+              "value": 64535086,
+              "name": "Del Nivel Departamental",
+              "01": {
+                "98": {
+                  "count": 926,
+                  "value": 63135005,
+                  "name": "Otros Aportes del Nivel Central Departamental"
+                },
+                "count": 475,
+                "value": 57073553,
+                "name": "Del Nivel Central Departamental",
+                "01": {
+                  "count": 79,
+                  "value": 3015857,
+                  "name": "Cofinanciación"
+                }
+              },
+              "03": {
+                "count": 89,
+                "value": 8495742,
+                "name": "De Entidades Descentralizadas Departamentales",
+                "01": {
+                  "count": 89,
+                  "value": 8495742,
+                  "name": "De Entidades No Financieras Departamentales",
+                  "03": {
+                    "98": {
+                      "count": 82,
+                      "value": 4793442,
+                      "name": "Otros Aportes de Empresas No Financieras Departamentales"
+                    },
+                    "count": 54,
+                    "value": 5822304,
+                    "name": "De Empresas No Financieras Departamentales",
+                    "01": {
+                      "count": 18,
+                      "value": 1735775,
+                      "name": "Empresas del Sector Eléctrico -de Ley-"
+                    }
+                  },
+                  "01": {
+                    "count": 74,
+                    "value": 2677069,
+                    "name": "De Entidades No Financieras Departamentales no consideradas Empresas"
+                  }
+                }
+              }
+            },
+            "01": {
+              "count": 472,
+              "value": 47967124,
+              "name": "Del Nivel Nacional",
+              "01": {
+                "91": {
+                  "count": 211,
+                  "value": 9030947,
+                  "name": "Aportes de la Nación para Funcionamiento"
+                },
+                "93": {
+                  "count": 236,
+                  "value": 16091717,
+                  "name": "Aportes de la Nación para Inversión"
+                },
+                "95": {
+                  "count": 2,
+                  "value": 88215,
+                  "name": "Aportes de la Nación para Deuda"
+                },
+                "98": {
+                  "count": 537,
+                  "value": 35012984,
+                  "name": "Otros Aportes del Nivel Central Nacional"
+                },
+                "count": 433,
+                "value": 44405753,
+                "name": "Del Nivel Central Nacional",
+                "01": {
+                  "count": 141,
+                  "value": 6305594,
+                  "name": "Cofinanciación"
+                },
+                "05": {
+                  "count": 5,
+                  "value": 360178,
+                  "name": "Sistema General de Participaciones -Salud-",
+                  "03": {
+                    "count": 5,
+                    "value": 107667,
+                    "name": "S. G. P. Salud - Prestación de servicios a Población no Afiliada",
+                    "01": {
+                      "count": 10,
+                      "value": 59169,
+                      "name": "S. G. P. Salud Oferta - Prestación de servicios"
+                    },
+                    "03": {
+                      "count": 10,
+                      "value": 48497,
+                      "name": "S. G. P. Salud Oferta - Aportes Patronales"
+                    }
+                  },
+                  "05": {
+                    "count": 10,
+                    "value": 75772,
+                    "name": "S. G. P. Salud - Salud Pública"
+                  },
+                  "01": {
+                    "count": 2,
+                    "value": 176735,
+                    "name": "S. G. P. Salud - Subsidio Demanda"
+                  }
+                },
+                "07": {
+                  "count": 1,
+                  "value": 2050,
+                  "name": "Sistema General de Regalías",
+                  "01": {
+                    "count": 2,
+                    "value": 2050,
+                    "name": "S. G. R. - Asignaciones y/o Compensaciones directas"
+                  }
+                }
+              },
+              "03": {
+                "count": 59,
+                "value": 6379019,
+                "name": "De Entidades Descentralizadas Nacionales",
+                "01": {
+                  "count": 59,
+                  "value": 6379019,
+                  "name": "De Entidades No Financieras Nacionales",
+                  "01": {
+                    "98": {
+                      "count": 63,
+                      "value": 6612923,
+                      "name": "Otros Aportes de Entidades No Financieras Nacionales no consideradas Empresas"
+                    },
+                    "count": 32,
+                    "value": 3002378,
+                    "name": "De Entidades No Financieras Nacionales no consideradas Empresas",
+                    "01": {
+                      "count": 8,
+                      "value": 15919,
+                      "name": "Cofinanciación"
+                    }
+                  },
+                  "03": {
+                    "98": {
+                      "count": 57,
+                      "value": 3752265,
+                      "name": "Otros Aportes de Empresas No Financieras Nacionales"
+                    },
+                    "count": 29,
+                    "value": 3376640,
+                    "name": "De Empresas No Financieras Nacionales",
+                    "01": {
+                      "count": 6,
+                      "value": 825889,
+                      "name": "Empresas del Sector Eléctrico -de Ley-"
+                    }
+                  }
+                }
+              }
+            },
+            "05": {
+              "count": 784,
+              "value": 130132788,
+              "name": "Del Nivel Municipal y/o Distrital",
+              "01": {
+                "count": 2083,
+                "value": 178341243,
+                "name": "Del Nivel Central Municipal y/o Distrital"
+              },
+              "03": {
+                "count": 135,
+                "value": 20050613,
+                "name": "De Entidades Descentralizadas Municipales y/o Distritales",
+                "01": {
+                  "count": 135,
+                  "value": 20050613,
+                  "name": "De Entidades No Financieras Municipales y/o Distritales",
+                  "03": {
+                    "count": 239,
+                    "value": 13702899,
+                    "name": "De Empresas No Financieras Municipales y/o Distritales"
+                  },
+                  "01": {
+                    "count": 182,
+                    "value": 19504507,
+                    "name": "De Entidades No Financieras Municipales y/o Distritales no consideradas Empresas"
+                  }
+                }
+              }
+            },
+            "07": {
+              "count": 51,
+              "value": 7118670,
+              "name": "De Particulares y Organismos Privados",
+              "03": {
+                "count": 81,
+                "value": 7600998,
+                "name": "De Empresas Privadas No Financieras"
+              },
+              "05": {
+                "count": 14,
+                "value": 307658,
+                "name": "De Empresas Privadas Financieras"
+              },
+              "01": {
+                "count": 9,
+                "value": 223787,
+                "name": "De los Hogares"
+              }
+            },
+            "09": {
+              "count": 25,
+              "value": 1359497,
+              "name": "De Organismos Internacionales"
+            }
+          },
+          "01": {
+            "count": 576,
+            "value": 56329279,
+            "name": "Aportes Patronales"
+          },
+          "07": {
+            "98": {
+              "count": 85,
+              "value": 6824084,
+              "name": "Otras Participaciones"
+            },
+            "count": 19,
+            "value": 2721247,
+            "name": "Participaciones",
+            "01": {
+              "count": 22,
+              "value": 981575,
+              "name": "Cerveza"
+            },
+            "03": {
+              "count": 32,
+              "value": 2236367,
+              "name": "Licores"
+            },
+            "05": {
+              "98": {
+                "count": 15,
+                "value": 1216264,
+                "name": "Otros Juegos de suerte y azar"
+              },
+              "count": 5,
+              "value": 590453,
+              "name": "Juegos de suerte y azar",
+              "01": {
+                "count": 34,
+                "value": 3296739,
+                "name": "Loterías"
+              },
+              "03": {
+                "count": 22,
+                "value": 1670689,
+                "name": "Juegos de apuestas permanentes o chance"
+              }
+            }
+          },
+          "03": {
+            "count": 119,
+            "value": 7439158,
+            "name": "Aportes de Afiliados"
+          }
+        },
+        "07": {
+          "count": 74,
+          "value": 7854339,
+          "name": "Fondos Especiales"
+        },
+        "06": {
+          "count": 44,
+          "value": 4303597,
+          "name": "Comisiones por recaudo a otras Entidades"
+        }
+      }
+    },
+    "2": {
+      "count": 3045,
+      "value": 355573403,
+      "name": "RECURSOS DE CAPITAL",
+      "01": {
+        "count": 709,
+        "value": 73928033,
+        "name": "RECURSOS DEL CRÉDITO",
+        "01": {
+          "98": {
+            "count": 87,
+            "value": 4328458,
+            "name": "Otros"
+          },
+          "count": 182,
+          "value": 15946910,
+          "name": "Externo",
+          "02": {
+            "count": 12,
+            "value": 573759,
+            "name": "Multilateral"
+          },
+          "01": {
+            "count": 197,
+            "value": 11460423,
+            "name": "Banca Comercial"
+          },
+          "05": {
+            "count": 5,
+            "value": 304308,
+            "name": "Proveedores"
+          },
+          "03": {
+            "count": 26,
+            "value": 1986419,
+            "name": "Fomento"
+          },
+          "04": {
+            "count": 3,
+            "value": 2500,
+            "name": "Gobiernos"
+          },
+          "06": {
+            "count": 4,
+            "value": 5598,
+            "name": "Bonos y Títulos"
+          }
+        },
+        "02": {
+          "98": {
+            "count": 181,
+            "value": 8319002,
+            "name": "Otros"
+          },
+          "count": 568,
+          "value": 58391037,
+          "name": "Interno",
+          "01": {
+            "count": 805,
+            "value": 47476900,
+            "name": "Banca Comercial"
+          },
+          "08": {
+            "count": 289,
+            "value": 24161429,
+            "name": "Sector Público"
+          },
+          "06": {
+            "count": 6,
+            "value": 511000,
+            "name": "Bonos y Títulos"
+          },
+          "05": {
+            "count": 14,
+            "value": 218930,
+            "name": "Proveedores"
+          }
+        }
+      },
+      "02": {
+        "11": {
+          "count": 2178,
+          "value": 232364275,
+          "name": "Desahorro Fonpet"
+        },
+        "98": {
+          "count": 1174,
+          "value": 85720650,
+          "name": "Otros Recursos de Capital no especificados"
+        },
+        "count": 3015,
+        "value": 359681466,
+        "name": "OTROS RECURSOS DE CAPITAL",
+        "01": {
+          "98": {
+            "count": 8222,
+            "value": 566221249,
+            "name": "Otros Recursos del Balance"
+          },
+          "count": 2652,
+          "value": 329502305,
+          "name": "Recursos del Balance",
+          "01": {
+            "98": {
+              "count": 2710,
+              "value": 199516494,
+              "name": "Otras Recuperaciones de Cartera"
+            },
+            "count": 1224,
+            "value": 158751784,
+            "name": "Recuperación de Cartera",
+            "03": {
+              "count": 226,
+              "value": 15148790,
+              "name": "Préstamos Concedidos - Capital"
+            },
+            "05": {
+              "count": 86,
+              "value": 6495685,
+              "name": "Préstamos Concedidos - Intereses"
+            }
+          },
+          "03": {
+            "count": 1693,
+            "value": 123751784,
+            "name": "Cancelación de reservas"
+          },
+          "05": {
+            "count": 1879,
+            "value": 130532976,
+            "name": "Reintegros"
+          },
+          "07": {
+            "count": 22124,
+            "value": 1661240083,
+            "name": "Superávit Fiscal"
+          },
+          "09": {
+            "count": 11,
+            "value": 775070,
+            "name": "Ingresos por Descapitalizaciones"
+          }
+        },
+        "03": {
+          "98": {
+            "count": 1661,
+            "value": 140824457,
+            "name": "Otros Rendimientos por Operaciones Financieras"
+          },
+          "count": 2189,
+          "value": 281993517,
+          "name": "Rendimientos por Operaciones Financieras",
+          "01": {
+            "count": 1832,
+            "value": 220188832,
+            "name": "Intereses",
+            "01": {
+              "98": {
+                "count": 3256,
+                "value": 233993279,
+                "name": "Otros Intereses de libre destinación"
+              },
+              "count": 1412,
+              "value": 168145890,
+              "name": "Provenientes de Recursos de Libre Destinación",
+              "01": {
+                "count": 2,
+                "value": 7946,
+                "name": "Rendimientos Financieros de filiales"
+              }
+            },
+            "03": {
+              "98": {
+                "count": 8855,
+                "value": 736687919,
+                "name": "Otros Intereses de destinación específica"
+              },
+              "count": 1147,
+              "value": 123668273,
+              "name": "Provenientes de Recursos de Destinación Específica",
+              "01": {
+                "count": 606,
+                "value": 131820486,
+                "name": "Del Fondo de Educación",
+                "01": {
+                  "count": 200,
+                  "value": 22583473,
+                  "name": "Del Fondo de Educación - Prestación de Servicios"
+                },
+                "03": {
+                  "count": 1050,
+                  "value": 121389976,
+                  "name": "Del Fondo de Educación - Calidad"
+                }
+              },
+              "03": {
+                "count": 777,
+                "value": 138655279,
+                "name": "Del Fondo de Salud",
+                "03": {
+                  "count": 482,
+                  "value": 31981821,
+                  "name": "Del Fondo de Salud - Prestación de Servicios"
+                },
+                "05": {
+                  "count": 1454,
+                  "value": 161447475,
+                  "name": "Del Fondo de Salud - Salud Pública"
+                },
+                "01": {
+                  "count": 1256,
+                  "value": 114540039,
+                  "name": "Del Fondo de Salud - Subsidio Demanda"
+                }
+              },
+              "05": {
+                "count": 2965,
+                "value": 215071572,
+                "name": "De Recursos de Propósito General Forzosa Inversión"
+              }
+            }
+          },
+          "03": {
+            "count": 122,
+            "value": 14058087,
+            "name": "Dividendos",
+            "03": {
+              "count": 32,
+              "value": 1252993,
+              "name": "Provenientes de Papeles"
+            },
+            "07": {
+              "count": 108,
+              "value": 6965468,
+              "name": "Provenientes de la Participación en Capital de Empresas Públicas No Financieras"
+            },
+            "05": {
+              "count": 11,
+              "value": 152784,
+              "name": "Provenientes de la Participación en Capital de Empresas Públicas Financieras"
+            },
+            "01": {
+              "count": 161,
+              "value": 14260149,
+              "name": "Provenientes de Operaciones Bancarias"
+            },
+            "09": {
+              "count": 8,
+              "value": 534461,
+              "name": "Dividendos de filiales"
+            }
+          },
+          "05": {
+            "count": 12,
+            "value": 1265367,
+            "name": "Corrección Monetaria"
+          }
+        },
+        "07": {
+          "count": 271,
+          "value": 31163734,
+          "name": "Utilidades y Excedentes Financieros",
+          "03": {
+            "98": {
+              "count": 482,
+              "value": 36388677,
+              "name": "Otros Excedentes de Establecimientos Públicos"
+            },
+            "count": 201,
+            "value": 24271887,
+            "name": "Excedentes de Establecimientos Públicos",
+            "01": {
+              "count": 54,
+              "value": 2846309,
+              "name": "Excedentes de destinación para educación"
+            },
+            "03": {
+              "count": 159,
+              "value": 12700089,
+              "name": "Excedentes de destinación para salud"
+            }
+          },
+          "05": {
+            "98": {
+              "count": 151,
+              "value": 11594755,
+              "name": "Otras Utilidades de Empresas Industriales y Comerciales"
+            },
+            "count": 75,
+            "value": 7683218,
+            "name": "Utilidades de Empresas Industriales y Comerciales",
+            "03": {
+              "count": 9,
+              "value": 420470,
+              "name": "Utilidades de destinación para salud"
+            },
+            "01": {
+              "count": 2,
+              "value": 6204,
+              "name": "Utilidades de destinación para educación"
+            },
+            "05": {
+              "count": 3,
+              "value": 438255,
+              "name": "Excedetes de operación de los juegos de lotería"
+            }
+          },
+          "07": {
+            "count": 7,
+            "value": 25158,
+            "name": "Utilidades de Entidades Financieras",
+            "01": {
+              "count": 1,
+              "value": 0,
+              "name": "Utilidad en venta bienes recibidos en pago"
+            },
+            "05": {
+              "count": 8,
+              "value": 25158,
+              "name": "Utilidad en venta de otros activos"
+            }
+          }
+        },
+        "08": {
+          "count": 73,
+          "value": 4668215,
+          "name": "Aprovechamientos Administración Central"
+        },
+        "02": {
+          "count": 362,
+          "value": 20298660,
+          "name": "Venta de Activos",
+          "01": {
+            "98": {
+              "count": 234,
+              "value": 9357384,
+              "name": "Venta de Otros Activos No Financieros"
+            },
+            "count": 348,
+            "value": 20153714,
+            "name": "Venta de Activos No Financieros",
+            "01": {
+              "count": 119,
+              "value": 9228812,
+              "name": "Venta de Terrenos",
+              "01": {
+                "count": 210,
+                "value": 11036375,
+                "name": "Venta de Terrenos -Otras Destinaciones Específicas-"
+              }
+            },
+            "05": {
+              "count": 61,
+              "value": 1886074,
+              "name": "Venta de Maquinaria y Equipo",
+              "01": {
+                "count": 91,
+                "value": 1886074,
+                "name": "Venta de Maquinaria y Equipo -Otras Destinaciones Específicas-"
+              }
+            },
+            "03": {
+              "count": 32,
+              "value": 2535747,
+              "name": "Venta de Edificios",
+              "01": {
+                "count": 43,
+                "value": 2535747,
+                "name": "Venta de Edificios -Otras Destinaciones Específicas-"
+              }
+            }
+          },
+          "03": {
+            "count": 20,
+            "value": 949609,
+            "name": "Ventas de Activos Financieros",
+            "01": {
+              "count": 31,
+              "value": 1049623,
+              "name": "Ventas de Activos Financieros -Otras Destinaciones Específicas-"
+            }
+          }
+        },
+        "06": {
+          "count": 208,
+          "value": 15370038,
+          "name": "Donaciones",
+          "01": {
+            "count": 188,
+            "value": 12707469,
+            "name": "De Particulares y Organismos Privados",
+            "03": {
+              "count": 246,
+              "value": 10905061,
+              "name": "De Empresas Privadas No Financieras"
+            },
+            "05": {
+              "count": 79,
+              "value": 3517675,
+              "name": "De Empresas Privadas Financieras"
+            },
+            "01": {
+              "count": 29,
+              "value": 851049,
+              "name": "De los Hogares"
+            }
+          },
+          "03": {
+            "count": 46,
+            "value": 3839329,
+            "name": "De Organismos Internacionales"
+          }
+        },
+        "04": {
+          "count": 6,
+          "value": 83897,
+          "name": "Diferencial Cambiario"
+        },
+        "05": {
+          "count": 189,
+          "value": 30760248,
+          "name": "Aportes de Capital",
+          "03": {
+            "count": 73,
+            "value": 7661405,
+            "name": "Del Nivel Departamental",
+            "03": {
+              "count": 17,
+              "value": 897797,
+              "name": "De Entidades Descentralizadas Departamentales",
+              "01": {
+                "count": 13,
+                "value": 828635,
+                "name": "De Entidades No Financieras Departamentales",
+                "01": {
+                  "count": 5,
+                  "value": 399212,
+                  "name": "De Entidades No Financieras Departamentales no consideradas Empresas"
+                },
+                "03": {
+                  "count": 15,
+                  "value": 429423,
+                  "name": "De Empresas No Financieras Departamentales"
+                }
+              },
+              "03": {
+                "count": 10,
+                "value": 69162,
+                "name": "De Empresas Financieras Departamentales"
+              }
+            },
+            "01": {
+              "count": 91,
+              "value": 6763608,
+              "name": "Del Nivel Central Departamental"
+            }
+          },
+          "05": {
+            "count": 123,
+            "value": 17976857,
+            "name": "Del Nivel Municipal y/o Distrital",
+            "03": {
+              "count": 23,
+              "value": 3328968,
+              "name": "De Entidades Descentralizadas Municipales y/o Distritales",
+              "01": {
+                "count": 22,
+                "value": 3030728,
+                "name": "De Entidades No Financieras Municipales y/o Distritales",
+                "01": {
+                  "count": 47,
+                  "value": 5454383,
+                  "name": "De Entidades No Financieras Municipales y/o Distritales no consideradas Empresas"
+                },
+                "03": {
+                  "count": 26,
+                  "value": 1703030,
+                  "name": "De Empresas No Financieras Municipales y/o Distritales"
+                }
+              },
+              "03": {
+                "count": 7,
+                "value": 298239,
+                "name": "De Empresas Financieras Municipales y/o Distritales"
+              }
+            },
+            "01": {
+              "count": 226,
+              "value": 16087929,
+              "name": "Del Nivel Central Municipal y/o Distrital"
+            }
+          },
+          "01": {
+            "count": 49,
+            "value": 6451273,
+            "name": "Del Nivel Nacional",
+            "01": {
+              "count": 61,
+              "value": 4379540,
+              "name": "Del Nivel Central Nacional"
+            },
+            "03": {
+              "count": 13,
+              "value": 2166745,
+              "name": "De Entidades Descentralizadas Nacionales",
+              "01": {
+                "count": 6,
+                "value": 1380682,
+                "name": "De Entidades No Financieras Nacionales",
+                "01": {
+                  "count": 4,
+                  "value": 465066,
+                  "name": "De Entidades No Financieras Nacionales no consideradas Empresas"
+                },
+                "03": {
+                  "count": 3,
+                  "value": 915616,
+                  "name": "De Empresas No Financieras Nacionales"
+                }
+              },
+              "03": {
+                "count": 8,
+                "value": 786062,
+                "name": "De Empresas Financieras Nacionales",
+                "03": {
+                  "count": 6,
+                  "value": 501551,
+                  "name": "De Empresas Financieras de No Depósito Nacionales"
+                },
+                "01": {
+                  "count": 7,
+                  "value": 284511,
+                  "name": "De Empresas Financieras de Depósito Nacionales"
+                }
+              }
+            }
+          },
+          "07": {
+            "count": 12,
+            "value": 2054548,
+            "name": "De Particulares y Organismos Privados",
+            "05": {
+              "count": 5,
+              "value": 995080,
+              "name": "De Empresas Privadas Financieras"
+            },
+            "03": {
+              "count": 13,
+              "value": 1054600,
+              "name": "De Empresas Privadas No Financieras"
+            },
+            "01": {
+              "count": 2,
+              "value": 4868,
+              "name": "De los Hogares"
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "count": 179,
+      "value": 26043885,
+      "name": "RENTAS PARAFISCALES / CONTRIBUCIONES PARAFISCALES",
+      "02": {
+        "count": 481,
+        "value": 31389869,
+        "name": "Contribuciones Parafiscales"
+      }
+    },
+    "count": 3370,
+    "value": 369142062,
+    "name": "INGRESOS"
+  },
+  "3": {
+    "1": {
+      "count": 33,
+      "value": 2093489,
+      "name": "Retención en la Fuente"
+    },
+    "2": {
+      "count": 7,
+      "value": 1281346,
+      "name": "Retención en la Fuente ICA"
+    },
+    "3": {
+      "count": 19,
+      "value": 309570,
+      "name": "Iva"
+    },
+    "4": {
+      "count": 2,
+      "value": 7334,
+      "name": "Timbre"
+    },
+    "5": {
+      "count": 892,
+      "value": 54216989,
+      "name": "Sobretasa Ambiental"
+    },
+    "6": {
+      "count": 278,
+      "value": 19487264,
+      "name": "S. G. P. Resguardos Indígenas"
+    },
+    "8": {
+      "count": 249,
+      "value": 18626044,
+      "name": "Otros ingresos de terceros"
+    },
+    "count": 442,
+    "value": 61343998,
+    "name": "INGRESOS DE TERCEROS"
+  }
+}
