@@ -35,12 +35,12 @@ const convert = (path, saveAccounts, saveTrees) => {
     }
   
     if (saveAccounts) {
-      fs.writeFileSync(`ingresos-depto/${depto}-accounts.json`, JSON.stringify(accounts));
+      fs.writeFileSync(`./results/ingresos-depto/${depto}-accounts.json`, JSON.stringify(accounts));
     }
   
     const tree = convertToTree(accounts, []);
     if (saveTrees) {
-      fs.writeFileSync(`ingresos-depto/${depto}-tree.json`, JSON.stringify(tree));
+      fs.writeFileSync(`./results/ingresos-depto/${depto}-tree.json`, JSON.stringify(tree));
     }
   }
 

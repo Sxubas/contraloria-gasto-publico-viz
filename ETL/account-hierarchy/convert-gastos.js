@@ -28,7 +28,7 @@ const convert = (path, save) => {
   }
 
   if (save) {
-    fs.writeFileSync('spend-accounts.json', JSON.stringify(accounts));
+    fs.writeFileSync('./results/gastos-accounts.json', JSON.stringify(accounts));
   }
 
   return accounts;
@@ -77,4 +77,4 @@ const print = (...args) => console.log(...args);
 
 const accounts = convert('./../data/Gastos filtrado.csv', true);
 const tree = convertToTree(accounts, []);
-fs.writeFileSync('gastos-tree.json', JSON.stringify(tree));
+fs.writeFileSync('./results/gastos-tree.json', JSON.stringify(tree));
