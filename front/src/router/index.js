@@ -2,7 +2,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Demo from '../views/Demo.vue';
-import Tarea1 from '../views/Tarea1.vue'
+import Demo2 from '../views/Demo2.vue';
+import Tarea1 from '../views/Tarea1.vue';
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -17,6 +19,11 @@ const routes = [
     component: Demo,
   },
   {
+    path: '/demo2',
+    name: 'demo2',
+    component: Demo2,
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
@@ -28,7 +35,7 @@ const routes = [
     path: '/tarea1',
     name: 'tarea1',
     component: Tarea1,
-  }
+  },
 ];
 
 const router = new VueRouter({
