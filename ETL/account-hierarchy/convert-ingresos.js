@@ -74,6 +74,6 @@ const convertToTree = (accounts) => {
 const print = (...args) => console.log(...args);
 
 
-const accounts = convert('./../data/Ingresos filtrado.csv');
+const accounts = convert('./../data/Ingresos filtrado.csv', true);
 const tree = convertToTree(accounts, []);
 fs.writeFileSync('./results/ingresos-tree.json', JSON.stringify(tree));

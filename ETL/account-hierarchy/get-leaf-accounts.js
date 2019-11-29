@@ -1,10 +1,10 @@
 const fs = require('fs')
 
-const fileName = './results/gastos-accounts.json';
-const ingresosAccountsRaw = fs.readFileSync(fileName);
-// const gastosAccounts = fs.readFileSync('./results/ingresos-tree.json');
+const gastosAccountsRaw = fs.readFileSync('./results/ingresos-accounts.json');
+const ingresosAccountsRaw = fs.readFileSync('./results/gastos-accounts.json');
 
 const ingresosAccounts = JSON.parse(ingresosAccountsRaw);
+const gastosAccounts = JSON.parse(gastosAccountsRaw);
 
 const getLeaves = (parentAccounts, account) => {
   let isLeaf = true;
@@ -32,7 +32,7 @@ const getLeaves = (parentAccounts, account) => {
   return leaves;
 }
 
-const leaves = getLeaves([], ingresosAccounts);
-const fileType = fileName.split('/').pop().split('-')[0];
-// Save as gastos-leaves or ingresos-leaves
-fs.writeFileSync(`./results/${fileType}-leaves.json`, JSON.stringify(leaves));
+const ingresosLeaves = getLeaves([], ingresosAccounts);
+const gastosLeaves = getLeaves([], gastosAccounts);
+const leaves = ingresosLeaves.concat(gastosLeaves);
+fs.writeFileSync(`./results/leaves.json`, JSON.stringify(leaves));
