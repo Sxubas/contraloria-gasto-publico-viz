@@ -9,14 +9,14 @@
       <span>Ordenar departamentos: </span>
       <select v-model="deptosSortingMethod">
         <option value="alphabetical">Orden alfabético</option>
-        <option value="most-greens-first">Los que tengan más verdes primero</option>
-        <option value="most-reds-first">Los que tengan más rojos primero</option>
+        <option value="most-positives-first">Los que tengan más positivos primero</option>
+        <option value="most-negatives-first">Los que tengan más negativos primero</option>
       </select>
       <span>Ordenar destinos: </span>
       <select v-model="destinationSortingMethod">
         <option value="alphabetical">Orden alfabético</option>
-        <option value="positives-first">Los verdes primero</option>
-        <option value="negatives-first">Los rojos primero</option>
+        <option value="positives-first">Los más positivos primero</option>
+        <option value="negatives-first">Los más negativos primero</option>
       </select>
       <span>Resaltar diferencias:</span>
       <input
@@ -41,9 +41,15 @@
         v-if="showTooltip"
         :style="{top: `${tooltipY}px`, left: `${tooltipX}px`, backgroundColor: tooltipDepto.color}"
       >
-        {{tooltipDepto.dest}}<br>
-        {{tooltipDepto.depto}}<br>
-        {{tooltipDepto.value}}
+        <div class="tooltip-destination">{{tooltipDepto.dest}}</div>
+        <div class="tooltip-department">{{tooltipDepto.depto}}</div>
+        <div class="tooltip-value">
+          {{integerTooltipValue(tooltipDepto.value)}}.
+          <small>
+            {{decimalTooltipValue(tooltipDepto.value)}}
+          </small>
+          MM
+        </div>
       </div>
     </div>
   </div>
@@ -66,11 +72,18 @@ export default {
       tooltipY: -1,
       deptosSortingMethod: 'alphabetical',
       destinationSortingMethod: 'alphabetical',
-      symlogConstantRange: 50,
-      symlogConstant: 10214714,
+      symlogConstantRange: 20,
+      symlogConstant: 20,
     };
   },
   methods: {
+    integerTooltipValue(value) {
+      return value.toFixed(0);
+    },
+    decimalTooltipValue(value) {
+      const truncatedString = value.toFixed(2).toString();
+      return truncatedString.split('.')[1];
+    },
     getDestinations(data) {
       const destinations = {};
 
@@ -167,9 +180,9 @@ export default {
     sortDeptos(deptos) {
       if (this.deptosSortingMethod === 'alphabetical') {
         deptos.sort((a, b) => a.name.localeCompare(b.name));
-      } else if (this.deptosSortingMethod === 'most-greens-first') {
+      } else if (this.deptosSortingMethod === 'most-positives-first') {
         deptos.sort((a, b) => b.positives - a.positives);
-      } else if (this.deptosSortingMethod === 'most-reds-first') {
+      } else if (this.deptosSortingMethod === 'most-negatives-first') {
         deptos.sort((a, b) => b.negatives - a.negatives);
       }
       // eslint-disable-next-line no-param-reassign
@@ -182,9 +195,9 @@ export default {
       if (this.destinationSortingMethod === 'alphabetical') {
         differences.sort((a, b) => a.dest.localeCompare(b.dest));
       } else if (this.destinationSortingMethod === 'positives-first') {
-        differences.sort((a, b) => a.value - b.value);
-      } else if (this.destinationSortingMethod === 'negatives-first') {
         differences.sort((a, b) => b.value - a.value);
+      } else if (this.destinationSortingMethod === 'negatives-first') {
+        differences.sort((a, b) => a.value - b.value);
       }
       // eslint-disable-next-line no-param-reassign
       differences.forEach((difference, i) => { difference.order = i; });
@@ -301,7 +314,8 @@ export default {
                   .join(
                     () => {},
                     (differenceUpdate) => {
-                      differenceUpdate.style('fill', d => scale(d.value));
+                      differenceUpdate.style('fill', d => scale(d.value))
+                        .on('mouseover', function showTooltip(d) { vue.renderTooltip(this, d, scale(d.value)); });
                     },
                   );
               });
@@ -315,7 +329,9 @@ export default {
                   .join(
                     _ => _,
                     (differenceUpdate) => {
-                      differenceUpdate.transition(t).attr('x', d => d.order * differenceWidth);
+                      differenceUpdate.transition(t)
+                        .attr('x', d => d.order * differenceWidth)
+                        .attr('width', differenceWidth);
                     },
                   );
               });
@@ -392,7 +408,28 @@ h2 {
 }
 
 .difference-hover-tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  background-color: red;
+  padding: 8px;
+  color: rgb(32, 32, 32);
+  background-color: transparent;
+}
+
+.difference-hover-tooltip div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 2px 0;
+  background-color: rgba(245, 245, 245, 0.48);
+  box-shadow: 0 0 2px 2px rgba(245, 245, 245, 0.48);
+}
+
+.difference-hover-tooltip small {
+  font-size: 0.72rem;
+  margin-bottom: 1px;
 }
 </style>
