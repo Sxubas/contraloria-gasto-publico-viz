@@ -133,6 +133,17 @@ export default {
         Object.values(depto).forEach(({ value }) => allValues.push(value));
       });
 
+      // Eliminate the top and bottom 30 differences (to help easen color viz)
+      let i = 0;
+      while (i <= 30) {
+        const maxIndex = allValues.indexOf(d3.max(allValues));
+        const minIndex = allValues.indexOf(d3.min(allValues));
+
+        allValues.splice(maxIndex, 1);
+        allValues.splice(minIndex, 1);
+        i += 1;
+      }
+
       const max = d3.max(allValues);
       const min = d3.min(allValues);
 
@@ -184,7 +195,7 @@ export default {
     async renderViz(type) {
       // Fetch data and transform it if it hasn't been initialized
       if (!this.fetchedData) {
-        const data = await d3.json('grouped-differences.json');
+        const data = await d3.json('grouped-differences-MM.json');
         const destinations = this.getDestinations(data);
         const deptos = this.getDeptos(data);
         this.destinations = destinations;
@@ -210,6 +221,8 @@ export default {
       const svg = d3.select('#viz svg')
         .attr('width', window.innerWidth - 80)
         .attr('height', 880);
+
+      const differenceWidth = (window.innerWidth - 200 /* left side */ - 80 /* margin */) / 23;
 
       // Resize svg on window resize
       window.onresize = () => {
@@ -260,9 +273,9 @@ export default {
                 .join(
                   (differenceEnter) => {
                     differenceEnter.append('rect')
-                      .attr('x', d => d.order * 14)
+                      .attr('x', d => d.order * differenceWidth)
                       .attr('height', 12)
-                      .attr('width', 14)
+                      .attr('width', differenceWidth)
                       .style('fill', d => scale(d.value))
                       .text(d => d.dest)
                       .on('mouseover', function showTooltip(d) { vue.renderTooltip(this, d, scale(d.value)); })
@@ -286,7 +299,7 @@ export default {
                   .selectAll('rect')
                   .data(differences)
                   .join(
-                    _ => _,
+                    () => {},
                     (differenceUpdate) => {
                       differenceUpdate.style('fill', d => scale(d.value));
                     },
@@ -302,7 +315,7 @@ export default {
                   .join(
                     _ => _,
                     (differenceUpdate) => {
-                      differenceUpdate.transition(t).attr('x', d => d.order * 14);
+                      differenceUpdate.transition(t).attr('x', d => d.order * differenceWidth);
                     },
                   );
               });
@@ -313,9 +326,14 @@ export default {
   },
   mounted() {
     this.debouncedRecolorRender = debounce(() => {
-      const log = d3.scalePow(1.8).domain([0.1, 100]).range([50000, 20000000]);
+      const log = d3.scalePow(8).domain([1, 100]).range([1, 100]);
       const value = parseFloat(this.symlogConstantRange);
+      console.log(log, this.symlogConstantRange, value, log(value));
+
       this.symlogConstant = log(value);
+
+      console.log(this.symlogConstant);
+
       this.renderViz('recolor-scale');
     }, 32);
     this.renderViz();
