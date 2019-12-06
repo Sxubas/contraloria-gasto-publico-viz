@@ -2,15 +2,6 @@ const fs = require('fs');
 const Papa = require('papaparse');
 const utils = require('./utils')
 
-const createIfDoesNotExist = (parent, level) => {
-  if (parent[level] === undefined) {
-    parent[level] = {
-      count: 0,
-      value: 0,
-    };
-  }
-}
-
 const leavesRaw = fs.readFileSync('./results/leaves.json').toString().toLowerCase();
 const leaves = JSON.parse(leavesRaw);
 const leafAccounts = {};
@@ -19,7 +10,7 @@ for (const account of leaves) {
   leafAccounts[cleanAccount] = true;
 }
 
-const csvRaw = fs.readFileSync('./../data/ingresos-filtrado.csv').toString();
+const csvRaw = fs.readFileSync('./../data/ingresos-filtrado-con-codigos.csv').toString();
 const result = Papa.parse(csvRaw, { header: true });
 
 const deptos = utils.getAllDepartments(result.data);
@@ -47,7 +38,7 @@ for (const depto of deptos) {
       continue;
     }
 
-    const destination = tx.NOM_DEST;
+    const destination = utils.codeToSimplifiedDestination(tx.COD_DEST);
 
     // Create destination if it doesn't exist
     if (!groupedIngresos[depto][destination]) {
