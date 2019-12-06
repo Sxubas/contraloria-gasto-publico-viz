@@ -26,3 +26,12 @@ for(const depto of deptos) {
 }
 
 fs.writeFileSync('./results/grouped-differences.json', JSON.stringify(groupedDifferences));
+
+for (const depto of Object.keys(groupedDifferences)) {
+  for (const destination of Object.keys(groupedDifferences[depto])) {
+    const { value } = groupedDifferences[depto][destination];
+    groupedDifferences[depto][destination].value = value / (1000 * 1000000) // Divide all values in 'miles de millones'
+  }
+}
+
+fs.writeFileSync('./results/grouped-differences-MM.json', JSON.stringify(groupedDifferences));
