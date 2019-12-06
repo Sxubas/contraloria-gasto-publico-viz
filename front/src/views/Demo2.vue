@@ -1,12 +1,32 @@
 <template>
   <div>
     <h2>Diferencia ingresos y gastos por departamento y destino</h2>
+    <p>
+      Texto introductorio... Lorem ipsum dolor et sit amet...
+    </p>
+    <img src="@/assets/scale.png" class="scale-image" alt="color-scale">
     <div class="controls-container">
+      <span>Ordenar departamentos: </span>
       <select v-model="deptosSortingMethod">
         <option value="alphabetical">Orden alfabético</option>
         <option value="most-greens-first">Los que tengan más verdes primero</option>
         <option value="most-reds-first">Los que tengan más rojos primero</option>
       </select>
+      <span>Ordenar destinos: </span>
+      <select v-model="destinationSortingMethod">
+        <option value="alphabetical">Orden alfabético</option>
+        <option value="positives-first">Los verdes primero</option>
+        <option value="negatives-first">Los rojos primero</option>
+      </select>
+      <span>Resaltar diferencias:</span>
+      <input
+        class="difference-range"
+        v-model="symlogConstantRange"
+        type="range"
+        min="1"
+        step="0.1"
+        max="100"
+      >
     </div>
     <div class="viz-container">
       <div class="viz-top-axis">
@@ -31,6 +51,7 @@
 
 <script>
 import * as d3 from 'd3-5';
+import debounce from 'debounce';
 
 export default {
   data() {
@@ -44,6 +65,9 @@ export default {
       tooltipX: -1,
       tooltipY: -1,
       deptosSortingMethod: 'alphabetical',
+      destinationSortingMethod: 'alphabetical',
+      symlogConstantRange: 50,
+      symlogConstant: 10214714,
     };
   },
   methods: {
@@ -78,8 +102,8 @@ export default {
       return deptos;
     },
     // Finds a department with the given name and returns
-    // it's destinations as an object array
-    deptoToArray(deptoString) {
+    // it's difference per destination as an object array
+    deptoToDifferencesArray(deptoString) {
       const depto = this.data[deptoString];
       const array = [];
 
@@ -112,7 +136,9 @@ export default {
       const max = d3.max(allValues);
       const min = d3.min(allValues);
 
-      return d3.scaleDivergingSymlog(d3.interpolatePiYG).constant(10000000).domain([min, 0, max]);
+      return d3.scaleDivergingSymlog(d3.interpolateRdYlBu)
+        .constant(this.symlogConstant)
+        .domain([min, 0, max]);
     },
     renderTooltip(target, depto, color) {
       const { x, y } = target.getBoundingClientRect();
@@ -130,21 +156,32 @@ export default {
     sortDeptos(deptos) {
       if (this.deptosSortingMethod === 'alphabetical') {
         deptos.sort((a, b) => a.name.localeCompare(b.name));
-        // eslint-disable-next-line no-param-reassign
-        deptos.forEach((depto, i) => { depto.order = i; });
       } else if (this.deptosSortingMethod === 'most-greens-first') {
         deptos.sort((a, b) => b.positives - a.positives);
-        // eslint-disable-next-line no-param-reassign
-        deptos.forEach((depto, i) => { depto.order = i; });
       } else if (this.deptosSortingMethod === 'most-reds-first') {
         deptos.sort((a, b) => b.negatives - a.negatives);
-        // eslint-disable-next-line no-param-reassign
-        deptos.forEach((depto, i) => { depto.order = i; });
       }
+      // eslint-disable-next-line no-param-reassign
+      deptos.forEach((depto, i) => { depto.order = i; });
 
+      // Always keep alphabetical order (only modify depto.order)
       deptos.sort((a, b) => a.name.localeCompare(b.name));
     },
-    async renderViz() {
+    sortDifferences(differences) {
+      if (this.destinationSortingMethod === 'alphabetical') {
+        differences.sort((a, b) => a.dest.localeCompare(b.dest));
+      } else if (this.destinationSortingMethod === 'positives-first') {
+        differences.sort((a, b) => a.value - b.value);
+      } else if (this.destinationSortingMethod === 'negatives-first') {
+        differences.sort((a, b) => b.value - a.value);
+      }
+      // eslint-disable-next-line no-param-reassign
+      differences.forEach((difference, i) => { difference.order = i; });
+
+      // Always keep alphabetical order (only modify difference.order)
+      differences.sort((a, b) => a.dest.localeCompare(b.dest));
+    },
+    async renderViz(type) {
       // Fetch data and transform it if it hasn't been initialized
       if (!this.fetchedData) {
         const data = await d3.json('grouped-differences.json');
@@ -212,21 +249,26 @@ export default {
 
             // For each department, append the differences
             deptosSel.each(function appendDiffrences({ name }) {
-              const depto = vue.deptoToArray(name);
+              const differences = vue.deptoToDifferencesArray(name);
+              vue.sortDifferences(differences);
               d3.select(this)
                 .append('g')
                 .attr('class', 'difference')
                 .attr('transform', `translate(${d3.max(labelLengths) - 240 + 16}, -12)`)
                 .selectAll('rect')
-                .data(depto)
-                .join('rect')
-                .attr('x', (d, i) => i * 14)
-                .attr('height', 12)
-                .attr('width', 14)
-                .style('fill', d => scale(d.value))
-                .text(d => d.dest)
-                .on('mouseover', function showTooltip(d) { vue.renderTooltip(this, d, scale(d.value)); })
-                .on('mouseleave', () => vue.hideTooltip());
+                .data(differences)
+                .join(
+                  (differenceEnter) => {
+                    differenceEnter.append('rect')
+                      .attr('x', d => d.order * 14)
+                      .attr('height', 12)
+                      .attr('width', 14)
+                      .style('fill', d => scale(d.value))
+                      .text(d => d.dest)
+                      .on('mouseover', function showTooltip(d) { vue.renderTooltip(this, d, scale(d.value)); })
+                      .on('mouseleave', () => vue.hideTooltip());
+                  },
+                );
             });
           },
           // Called when sorting departments
@@ -236,16 +278,57 @@ export default {
             update.transition(t)
               .delay(d => d.order * 64)
               .attr('transform', d => `translate(0,${(d.order + 1) * 24})`);
+
+            if (type === 'recolor-scale') {
+              update.each(function sortDifferences({ name }) {
+                const differences = vue.deptoToDifferencesArray(name);
+                d3.select(this).select('g.difference')
+                  .selectAll('rect')
+                  .data(differences)
+                  .join(
+                    _ => _,
+                    (differenceUpdate) => {
+                      differenceUpdate.style('fill', d => scale(d.value));
+                    },
+                  );
+              });
+            } else if (type === 'sort-destinations') {
+              update.each(function sortDifferences({ name }) {
+                const differences = vue.deptoToDifferencesArray(name);
+                vue.sortDifferences(differences);
+                d3.select(this).select('g.difference')
+                  .selectAll('rect')
+                  .data(differences)
+                  .join(
+                    _ => _,
+                    (differenceUpdate) => {
+                      differenceUpdate.transition(t).attr('x', d => d.order * 14);
+                    },
+                  );
+              });
+            }
           },
         );
     },
   },
   mounted() {
+    this.debouncedRecolorRender = debounce(() => {
+      const log = d3.scalePow(1.8).domain([0.1, 100]).range([50000, 20000000]);
+      const value = parseFloat(this.symlogConstantRange);
+      this.symlogConstant = log(value);
+      this.renderViz('recolor-scale');
+    }, 32);
     this.renderViz();
   },
   watch: {
     deptosSortingMethod() {
       this.renderViz();
+    },
+    destinationSortingMethod() {
+      this.renderViz('sort-destinations');
+    },
+    symlogConstantRange() {
+      this.debouncedRecolorRender();
     },
   },
 };
@@ -255,6 +338,16 @@ export default {
 h2 {
   text-align: left;
   margin-left: 16px;
+}
+
+.scale-image {
+  height: 16px;
+  width: 160px;
+  transform: rotate(/* -9 */0deg)
+}
+
+.difference-range {
+  direction: rtl;
 }
 
 .viz-container {
