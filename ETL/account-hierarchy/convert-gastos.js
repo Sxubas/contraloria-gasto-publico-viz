@@ -21,14 +21,13 @@ const convert = (path, save) => {
       print('[diferentes]: ', parent.name, tx.NOM_CUENTA);
     }
 
-    // parent.value += parseInt(tx.APR_DEFINITIVA.replace('.', ''), 10);
-    parent.value += parseInt(tx.NETO_CDP.replace('.', ''), 10);
+    parent.value += parseInt(tx.PAGOS.replace('.', ''), 10);
     parent.name = tx.NOM_CUENTA;
     parent.count += 1;
   }
 
   if (save) {
-    fs.writeFileSync('spend-accounts.json', JSON.stringify(accounts));
+    fs.writeFileSync('./results/gastos-accounts.json', JSON.stringify(accounts));
   }
 
   return accounts;
@@ -75,6 +74,6 @@ const convertToTree = (accounts) => {
 const print = (...args) => console.log(...args);
 
 
-const accounts = convert('./../data/Gastos filtrado.csv', true);
+const accounts = convert('./../data/gastos-filtrado-con-codigos.csv', true);
 const tree = convertToTree(accounts, []);
-fs.writeFileSync('gastos-tree.json', JSON.stringify(tree));
+fs.writeFileSync('./results/gastos-tree.json', JSON.stringify(tree)); // used for treemap viz
