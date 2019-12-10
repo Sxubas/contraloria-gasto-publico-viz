@@ -17,7 +17,13 @@ const deptos = utils.getAllDepartments(result.data);
 
 const groupedGastos = {};
 for (const depto of deptos) {
+  // Ignore Bogotá (it's empty)
+  if (depto === 'BOGOTÁ, D. C.' || depto === 'NO APLICA') {
+    continue;
+  }
+
   groupedGastos[depto] = {};
+
   for (const tx of result.data) {
     const txDpto = tx.NOM_DEPAR;
     const txAmbito = tx.NOM_AMB;
@@ -37,8 +43,8 @@ for (const depto of deptos) {
       continue;
     }
 
-    // Only calculate 'ambito departamental'
-    if (txAmbito !== 'ADMÓN CTRAL TERR - DEPTOS') {
+    // Only calculate 'ambito departamental' + San Andrés
+    if (txAmbito !== 'ADMÓN CTRAL TERR - DEPTOS' && txAmbito !== 'ADMÓN CTRAL TERR - SAN ANDRÉS') {
       continue;
     }
 
