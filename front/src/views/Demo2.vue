@@ -22,7 +22,25 @@
         <span>Diferencia positiva</span>
       </div>
     </div>
+    <div class="text-container">
+      <p>
+        El calculo se hace de la misma manera en el caso de los municipios
+      </p>
+    </div>
     <div class="controls-container">
+      <span>Mostrar: </span>
+      <select v-model="dataSource">
+        <option value="grouped-differences-MM.json">Departamentos</option>
+        <option value="grouped-differences-muni-MM.json">Municipios</option>
+      </select>
+      <template v-if="dataSource === 'grouped-differences-muni-MM.json'">
+        <span>Mostrar municipios de: </span>
+        <select v-model="showDepartment">
+          <option v-for="department in deptosNames" :key="department" :value="department">
+            {{ department }}
+          </option>
+        </select>
+      </template>
       <span>Ordenar departamentos: </span>
       <select v-model="deptosSortingMethod">
         <option value="alphabetical">Orden alfabético</option>
@@ -91,6 +109,10 @@ export default {
       destinationSortingMethod: 'alphabetical',
       symlogConstantRange: 20,
       symlogConstant: 20,
+      dataSource: 'grouped-differences-MM.json',
+      deptosNames: [],
+      showDepartment: 'ANTIOQUIA',
+      deptosMunis: {},
     };
   },
   methods: {
@@ -202,11 +224,22 @@ export default {
       } else if (this.deptosSortingMethod === 'most-negatives-first') {
         deptos.sort((a, b) => b.negatives - a.negatives);
       }
+
+      // Filter municipalities when sorting municipalities dataset
+      if (this.dataSource === 'grouped-differences-muni-MM.json') {
+        // Reassign to filter municipalities that are not from the selected department
+        // eslint-disable-next-line no-param-reassign
+        deptos = deptos
+          .filter(municipality => this.deptosMunis[this.showDepartment][municipality.name]);
+      }
+
       // eslint-disable-next-line no-param-reassign
       deptos.forEach((depto, i) => { depto.order = i; });
 
       // Always keep alphabetical order (only modify depto.order)
       deptos.sort((a, b) => a.name.localeCompare(b.name));
+
+      return deptos;
     },
     sortDifferences(differences) {
       if (this.destinationSortingMethod === 'alphabetical') {
@@ -223,21 +256,35 @@ export default {
       differences.sort((a, b) => a.dest.localeCompare(b.dest));
     },
     async renderViz(type) {
-      // Fetch data and transform it if it hasn't been initialized
+      // Only run once
       if (!this.fetchedData) {
-        const data = await d3.json('grouped-differences-MM.json');
+        const deptosMunis = await d3.json('deptos-munis.json');
+        this.deptosMunis = deptosMunis;
+      }
+
+      // Fetch data and transform it if it hasn't been initialized
+      if (!this.fetchedData || type === 'repaint') {
+        const data = await d3.json(this.dataSource);
         const destinations = this.getDestinations(data);
         const deptos = this.getDeptos(data);
+
         this.destinations = destinations;
         this.deptos = deptos;
         this.data = data;
+
+        // Only run once. Sorry
+        if (!this.fetchedData) {
+          this.deptosNames = Object.keys(data);
+        }
+
         this.fetchedData = true;
       }
 
-      const { data, destinations, deptos } = this;
+      const { data, destinations } = this;
+      let { deptos } = this;
       const vue = this;
 
-      this.sortDeptos(deptos);
+      deptos = this.sortDeptos(deptos);
 
       console.log(data);
       console.log(deptos);
@@ -247,12 +294,23 @@ export default {
       const scale = this.createDivergentScale();
       const labelLengths = [];
 
+      if (type === 'repaint') {
+        d3.select('#viz svg').remove();
+        d3.select('#viz').append('svg');
+      }
+
+      const height = deptos.length * 24 + 80;
+
       // Target div -> svg will be set the browsers width minus a small margin (80)
       const svg = d3.select('#viz svg')
         .attr('width', window.innerWidth - 80)
-        .attr('height', 880);
+        .attr('height', height);
 
-      const differenceWidth = (window.innerWidth - 200 /* left side */ - 80 /* margin */) / 23;
+      const leftSide = 200;
+      const differenceWidth = vue.dataSource === 'grouped-differences-MM.json'
+        ? (window.innerWidth - leftSide - 80 /* margin */) / 23
+        : (window.innerWidth - leftSide - 80 /* margin */ - 100) / 23;
+      const labelOffet = vue.dataSource === 'grouped-differences-MM.json' ? 240 : 40;
 
       // Resize svg on window resize
       window.onresize = () => {
@@ -273,7 +331,7 @@ export default {
             const deptosSel = enter.append('g').attr('class', 'depto');
 
             // Append and translate each department group/label
-            deptosSel.attr('transform', (d, i) => `translate(0,${(i + 1) * 24})`)
+            deptosSel.attr('transform', d => `translate(0,${(d.order + 1) * 24})`)
               .append('text')
               .text(d => d.name)
               .each(function resizeText() {
@@ -286,7 +344,7 @@ export default {
                 }
               })
               .each(function alignRight() {
-                const x = (d3.max(labelLengths) - this.getComputedTextLength()) - 240;
+                const x = (d3.max(labelLengths) - this.getComputedTextLength()) - labelOffet;
                 d3.select(this).attr('x', x);
               });
 
@@ -297,7 +355,7 @@ export default {
               d3.select(this)
                 .append('g')
                 .attr('class', 'difference')
-                .attr('transform', `translate(${d3.max(labelLengths) - 240 + 16}, -12)`)
+                .attr('transform', `translate(${d3.max(labelLengths) - labelOffet + 16}, -12)`)
                 .selectAll('rect')
                 .data(differences)
                 .join(
@@ -316,10 +374,13 @@ export default {
           },
           // Called when sorting departments
           (update) => {
+            const transitionDelay = vue.dataSource === 'grouped-differences-MM.json'
+              ? 64
+              : 16;
             const t = d3.transition().duration(640 * 2).ease(d3.easeCubic);
 
             update.transition(t)
-              .delay(d => d.order * 64)
+              .delay(d => d.order * transitionDelay)
               .attr('transform', d => `translate(0,${(d.order + 1) * 24})`);
 
             if (type === 'recolor-scale') {
@@ -380,6 +441,12 @@ export default {
     },
     symlogConstantRange() {
       this.debouncedRecolorRender();
+    },
+    dataSource() {
+      this.renderViz('repaint');
+    },
+    showDepartment() {
+      this.renderViz('repaint');
     },
   },
 };
