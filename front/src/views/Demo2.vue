@@ -1,10 +1,27 @@
 <template>
-  <div>
-    <h2>Diferencia ingresos y gastos por departamento y destino</h2>
-    <p>
-      Texto introductorio... Lorem ipsum dolor et sit amet...
-    </p>
-    <img src="@/assets/scale.png" class="scale-image" alt="color-scale">
+  <div class="view-container">
+    <h2>Visualización de ingresos y gastos por departamento y destino</h2>
+    <div class="text-container">
+      <p>
+        En Colombia, cada ingreso de la nación tiene un destino ligado,
+        que representa una categoría en lo que debería gastarse.
+        Análogamente, cada gasto tiene adjunto un destino,
+        que representa en qué fue lo que se gastó ese dinero.
+      </p>
+      <p>
+        La siguiente visualización muestra la diferencia de ingresos y gastos,
+        por departamento y por destino. Entre más roja sea la celda,
+        la diferencia (ingresos - gastos) para ese destino y ese departamento es más negativa.
+        De igual manera, entre más azúl la celda, más positiva es la diferencia.
+      </p>
+    </div>
+    <div class="scale-explain-container">
+      <img src="@/assets/scale.png" class="scale-image" alt="color-scale">
+      <div class="scale-text-container">
+        <span>Diferencia negativa</span>
+        <span>Diferencia positiva</span>
+      </div>
+    </div>
     <div class="controls-container">
       <span>Ordenar departamentos: </span>
       <select v-model="deptosSortingMethod">
@@ -18,7 +35,7 @@
         <option value="positives-first">Los más positivos primero</option>
         <option value="negatives-first">Los más negativos primero</option>
       </select>
-      <span>Resaltar diferencias:</span>
+      <span>Ajustar escala:</span>
       <input
         class="difference-range"
         v-model="symlogConstantRange"
@@ -371,13 +388,35 @@ export default {
 <style scoped>
 h2 {
   text-align: left;
-  margin-left: 16px;
+  margin: 8px 16px;
+}
+
+.text-container {
+  text-align: left;
+  margin: 8px 16px;
+}
+
+.scale-explain-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 8px 16px;
 }
 
 .scale-image {
   height: 16px;
-  width: 160px;
-  transform: rotate(/* -9 */0deg)
+  width: 200px;
+  align-self: flex-start;
+  margin-left: 80px;
+}
+
+
+.scale-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 340px;
 }
 
 .difference-range {

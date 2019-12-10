@@ -13,5 +13,10 @@ export default {
   components: {
     HelloWorld,
   },
+  /* mounted() {
+    setTimeout(() => {
+      this.$router.push('demo2');
+    }, 200);
+  }, */
 };
 </script>

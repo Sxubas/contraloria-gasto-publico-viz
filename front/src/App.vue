@@ -83,4 +83,8 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.header a {
+  margin: 0 8px;
+}
 </style>

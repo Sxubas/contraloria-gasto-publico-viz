@@ -1,25 +1,36 @@
 <template>
   <div class="about">
-    <p>
-      Este es un proyecto de código abierto que utiliza los datos de la
-      contraloría para visualizar el ingreso y el gasto público.
-      Utilizamos los datos de 2018 de ingresos y gastos, disponibles en:
-    </p>
+    <iframe class="viz-iframe" :name="iframeName" src="https://contraloria-2c65d.firebaseapp.com" frameborder="0"></iframe>
     <br>
     <br>
-    <div class="hex"></div>
+    <!-- <div class="hex"></div> -->
 
-    <svg class="svg">
+    <!-- <svg class="svg">
       <g>
         <rect x=50 y=50 class="svg-hex-top"></rect>
         <rect x=50 y=50 class="svg-hex-center"></rect>
         <rect x=50 y=50 class="svg-hex-bottom"></rect>
       </g>
-    </svg>
+    </svg> -->
   </div>
 </template>
 
+<script>
+export default {
+  computed: {
+    iframeName() {
+      return Date.now();
+    },
+  },
+};
+</script>
+
 <style scoped>
+.viz-iframe {
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+
 .hex {
   height: 100px;
   width: calc(100px*1.732050807568877293);
