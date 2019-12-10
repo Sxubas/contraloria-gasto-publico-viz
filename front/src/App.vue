@@ -2,15 +2,14 @@
   <div id="app">
     <div class="header">
       <div class="header-left-container">
-        <img alt="logo contraloría" src="./assets/logo1.png">
+        <img alt="logo contraloría" @click="$router.push('/')" src="./assets/logo1.png">
         <div class="header-text-container">
           <small>Visualización interactiva</small>
           <h1>Asignación del ingreso y gasto público</h1>
         </div>
       </div>
       <div class="header-right-container">
-        <router-link to="/demo">Treemap cuentas</router-link>
-        <router-link to="/diferencias">Matriz diferencias</router-link>
+        <router-link v-if="$route.name !== 'home'" to="/">Volver</router-link>
       </div>
     </div>
     <router-view/>
@@ -49,6 +48,7 @@
 .header img {
   width: 80px;
   margin: 4px;
+  cursor: pointer;
 }
 
 .vertical-hr {
