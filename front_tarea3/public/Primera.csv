@@ -1,0 +1,502 @@
+NOM_CATEGORIA,NOM_DEST,NOM_MUN,PAGOS
+Primera,Administración de justicia,BARRANCABERMEJA,3459971200.0
+Primera,Administración de justicia,BARRANQUILLA,49165000.0
+Primera,Administración de justicia,BELLO,259881144.0
+Primera,Administración de justicia,BUCARAMANGA,16710022683.0
+Primera,Administración de justicia,BUENAVENTURA,3541792261.0
+Primera,Administración de justicia,CARTAGENA DE INDIAS,739102074.0
+Primera,Administración de justicia,CHÍA,128787800.0
+Primera,Administración de justicia,CÚCUTA,2988929618.0
+Primera,Administración de justicia,ENVIGADO,283744248.0
+Primera,Administración de justicia,FUNZA,1083900784.0
+Primera,Administración de justicia,IBAGUÉ,325599999.0
+Primera,Administración de justicia,MOSQUERA,2135094167.0
+Primera,Administración de justicia,PASTO,1497698528.0
+Primera,Administración de justicia,RIONEGRO,4291505950.0
+Primera,Administración de justicia,SABANETA,4220723229.0
+Primera,Administración de justicia,TUNJA,1203591410.0
+Primera,Administración de justicia,VILLAVICENCIO,1239237711.0
+Primera,Agua potable y Saneamiento básico,ARMENIA,2760894273.0
+Primera,Agua potable y Saneamiento básico,BARRANCABERMEJA,12259151806.0
+Primera,Agua potable y Saneamiento básico,BARRANQUILLA,26121855520.0
+Primera,Agua potable y Saneamiento básico,BELLO,7179332804.0
+Primera,Agua potable y Saneamiento básico,BUCARAMANGA,9596125298.0
+Primera,Agua potable y Saneamiento básico,BUENAVENTURA,16821779376.0
+Primera,Agua potable y Saneamiento básico,CARTAGENA DE INDIAS,6216750536.0
+Primera,Agua potable y Saneamiento básico,CHÍA,4346224486.0
+Primera,Agua potable y Saneamiento básico,CÚCUTA,24260135701.0
+Primera,Agua potable y Saneamiento básico,ENVIGADO,3430302115.0
+Primera,Agua potable y Saneamiento básico,FLORIDABLANCA,8524595828.0
+Primera,Agua potable y Saneamiento básico,FUNZA,3681831045.0
+Primera,Agua potable y Saneamiento básico,IBAGUÉ,16299691645.0
+Primera,Agua potable y Saneamiento básico,ITAGÜÍ,18077086929.0
+Primera,Agua potable y Saneamiento básico,MANIZALES,2956228980.0
+Primera,Agua potable y Saneamiento básico,MONTERÍA,41156294701.0
+Primera,Agua potable y Saneamiento básico,MOSQUERA,8079834146.0
+Primera,Agua potable y Saneamiento básico,NEIVA,3510237897.0
+Primera,Agua potable y Saneamiento básico,PALMIRA,1535742566.0
+Primera,Agua potable y Saneamiento básico,PASTO,16553441736.0
+Primera,Agua potable y Saneamiento básico,PEREIRA,6035063720.0
+Primera,Agua potable y Saneamiento básico,RIONEGRO,24058985631.0
+Primera,Agua potable y Saneamiento básico,SABANETA,347020192.0
+Primera,Agua potable y Saneamiento básico,SANTA MARTA,8933617128.0
+Primera,Agua potable y Saneamiento básico,SOACHA,6982919246.0
+Primera,Agua potable y Saneamiento básico,TUNJA,3440483731.0
+Primera,Agua potable y Saneamiento básico,VALLEDUPAR,3728803323.0
+Primera,Agua potable y Saneamiento básico,VILLAVICENCIO,73570105179.0
+Primera,Agua potable y Saneamiento básico,YUMBO,6277147285.0
+Primera,Atención a desastres,ARMENIA,3219699848.0
+Primera,Atención a desastres,BARRANCABERMEJA,3533059861.0
+Primera,Atención a desastres,BARRANQUILLA,3806140777.0
+Primera,Atención a desastres,BELLO,5458030041.0
+Primera,Atención a desastres,BUCARAMANGA,214296984.0
+Primera,Atención a desastres,BUENAVENTURA,1385626426.0
+Primera,Atención a desastres,CARTAGENA DE INDIAS,4908534648.0
+Primera,Atención a desastres,CHÍA,1610032880.0
+Primera,Atención a desastres,CÚCUTA,3198484079.0
+Primera,Atención a desastres,ENVIGADO,1580361403.0
+Primera,Atención a desastres,FLORIDABLANCA,5189333521.0
+Primera,Atención a desastres,FUNZA,52268178.0
+Primera,Atención a desastres,IBAGUÉ,1831287609.0
+Primera,Atención a desastres,ITAGÜÍ,2740830314.0
+Primera,Atención a desastres,MANIZALES,12531588015.0
+Primera,Atención a desastres,MOSQUERA,746460920.0
+Primera,Atención a desastres,NEIVA,468780272.0
+Primera,Atención a desastres,PALMIRA,3366350398.0
+Primera,Atención a desastres,PASTO,2798222585.0
+Primera,Atención a desastres,PEREIRA,8174950617.0
+Primera,Atención a desastres,RIONEGRO,2854139680.0
+Primera,Atención a desastres,SABANETA,4580131953.0
+Primera,Atención a desastres,SANTA MARTA,689084000.0
+Primera,Atención a desastres,SOACHA,446270496.0
+Primera,Atención a desastres,TUNJA,4931147714.0
+Primera,Atención a desastres,VALLEDUPAR,660994135.0
+Primera,Atención a desastres,VILLAVICENCIO,12462213236.0
+Primera,Atención a desastres,YUMBO,4104602841.0
+Primera,Atención a grupos vulnerables,ARMENIA,5640796305.0
+Primera,Atención a grupos vulnerables,BARRANCABERMEJA,8428188336.0
+Primera,Atención a grupos vulnerables,BARRANQUILLA,47071697790.0
+Primera,Atención a grupos vulnerables,BELLO,7920024370.0
+Primera,Atención a grupos vulnerables,BUCARAMANGA,16009901442.0
+Primera,Atención a grupos vulnerables,BUENAVENTURA,1128395727.0
+Primera,Atención a grupos vulnerables,CARTAGENA DE INDIAS,7812761254.0
+Primera,Atención a grupos vulnerables,CHÍA,10652256782.0
+Primera,Atención a grupos vulnerables,CÚCUTA,32739774058.0
+Primera,Atención a grupos vulnerables,ENVIGADO,11892391361.0
+Primera,Atención a grupos vulnerables,FLORIDABLANCA,4207046813.0
+Primera,Atención a grupos vulnerables,FUNZA,9924886591.0
+Primera,Atención a grupos vulnerables,IBAGUÉ,8752342834.0
+Primera,Atención a grupos vulnerables,ITAGÜÍ,17301393203.0
+Primera,Atención a grupos vulnerables,MANIZALES,4653217420.0
+Primera,Atención a grupos vulnerables,MONTERÍA,3994736237.0
+Primera,Atención a grupos vulnerables,MOSQUERA,13603279661.0
+Primera,Atención a grupos vulnerables,NEIVA,5173774407.0
+Primera,Atención a grupos vulnerables,PASTO,7047351021.0
+Primera,Atención a grupos vulnerables,PEREIRA,12059685199.0
+Primera,Atención a grupos vulnerables,RIONEGRO,28212508245.0
+Primera,Atención a grupos vulnerables,SABANETA,10372012198.0
+Primera,Atención a grupos vulnerables,SANTA MARTA,3128047664.0
+Primera,Atención a grupos vulnerables,SOACHA,6037850786.0
+Primera,Atención a grupos vulnerables,TUNJA,8580569624.0
+Primera,Atención a grupos vulnerables,VALLEDUPAR,6523111528.0
+Primera,Atención a grupos vulnerables,VILLAVICENCIO,20707286240.0
+Primera,Atención a grupos vulnerables,YUMBO,8540687869.0
+Primera,Ciencia y tenología,BARRANQUILLA,4849943755.0
+Primera,Ciencia y tenología,CÚCUTA,387362666.0
+Primera,Ciencia y tenología,FUNZA,558348420.0
+Primera,Ciencia y tenología,ITAGÜÍ,165184246.0
+Primera,Ciencia y tenología,MANIZALES,174156696.0
+Primera,Ciencia y tenología,MONTERÍA,123000000.0
+Primera,Ciencia y tenología,PEREIRA,1792247566.0
+Primera,Ciencia y tenología,RIONEGRO,1677990902.0
+Primera,Ciencia y tenología,SABANETA,935737860.0
+Primera,Ciencia y tenología,TUNJA,472494714.0
+Primera,Comunicaciones,BARRANQUILLA,466969363.0
+Primera,Comunicaciones,BELLO,2436905546.0
+Primera,Comunicaciones,FUNZA,566931252.0
+Primera,Comunicaciones,ITAGÜÍ,3336548321.0
+Primera,Comunicaciones,MANIZALES,283215939.0
+Primera,Comunicaciones,PEREIRA,23548072585.0
+Primera,Comunicaciones,RIONEGRO,1120398729.0
+Primera,Comunicaciones,SABANETA,240921400.0
+Primera,Comunicaciones,TUNJA,664998604.0
+Primera,Comunicaciones,VILLAVICENCIO,3268375947.0
+Primera,Cultura,ARMENIA,2118891330.0
+Primera,Cultura,BARRANCABERMEJA,3243923273.0
+Primera,Cultura,BARRANQUILLA,32888049000.0
+Primera,Cultura,BELLO,2789835278.0
+Primera,Cultura,BUCARAMANGA,14436434990.0
+Primera,Cultura,BUENAVENTURA,736203948.0
+Primera,Cultura,CARTAGENA DE INDIAS,18280529240.0
+Primera,Cultura,CHÍA,5898348846.0
+Primera,Cultura,CÚCUTA,5674947530.0
+Primera,Cultura,ENVIGADO,23906566190.0
+Primera,Cultura,FLORIDABLANCA,2423289837.0
+Primera,Cultura,FUNZA,3528960892.0
+Primera,Cultura,IBAGUÉ,6333913097.0
+Primera,Cultura,ITAGÜÍ,7575394521.0
+Primera,Cultura,MANIZALES,3774841618.0
+Primera,Cultura,MONTERÍA,2306658032.0
+Primera,Cultura,MOSQUERA,4007842347.0
+Primera,Cultura,NEIVA,2829678685.0
+Primera,Cultura,PALMIRA,4478259056.0
+Primera,Cultura,PASTO,5247734843.0
+Primera,Cultura,PEREIRA,8115868385.0
+Primera,Cultura,RIONEGRO,7690234030.0
+Primera,Cultura,SABANETA,5469815653.0
+Primera,Cultura,SANTA MARTA,2783149073.0
+Primera,Cultura,SOACHA,3056887793.0
+Primera,Cultura,TUNJA,23189538704.0
+Primera,Cultura,VALLEDUPAR,3259114901.0
+Primera,Cultura,VILLAVICENCIO,12254699656.0
+Primera,Cultura,YUMBO,5858456807.0
+Primera,Defensa y seguridad,ARMENIA,317649578.0
+Primera,Defensa y seguridad,BARRANCABERMEJA,9922773404.0
+Primera,Defensa y seguridad,BARRANQUILLA,92423330426.0
+Primera,Defensa y seguridad,BELLO,1516999027.0
+Primera,Defensa y seguridad,BUENAVENTURA,300000000.0
+Primera,Defensa y seguridad,CARTAGENA DE INDIAS,3431024772.0
+Primera,Defensa y seguridad,CHÍA,7562503986.0
+Primera,Defensa y seguridad,CÚCUTA,11352886332.0
+Primera,Defensa y seguridad,ENVIGADO,9934794430.0
+Primera,Defensa y seguridad,FUNZA,925488057.0
+Primera,Defensa y seguridad,IBAGUÉ,2120560474.0
+Primera,Defensa y seguridad,ITAGÜÍ,4559837375.0
+Primera,Defensa y seguridad,MANIZALES,8428792342.0
+Primera,Defensa y seguridad,MONTERÍA,3031255865.0
+Primera,Defensa y seguridad,MOSQUERA,1757714454.0
+Primera,Defensa y seguridad,NEIVA,3446581761.0
+Primera,Defensa y seguridad,PALMIRA,14964726422.0
+Primera,Defensa y seguridad,PASTO,4315187382.0
+Primera,Defensa y seguridad,PEREIRA,10493224723.0
+Primera,Defensa y seguridad,RIONEGRO,7972460470.0
+Primera,Defensa y seguridad,SANTA MARTA,3371000708.0
+Primera,Defensa y seguridad,SOACHA,2918116989.0
+Primera,Defensa y seguridad,TUNJA,7836731687.0
+Primera,Defensa y seguridad,VALLEDUPAR,3957078753.0
+Primera,Defensa y seguridad,VILLAVICENCIO,8337555511.0
+Primera,Defensa y seguridad,YUMBO,6239841585.0
+Primera,Deporte y Recreación,ARMENIA,1305343738.0
+Primera,Deporte y Recreación,BARRANCABERMEJA,7435650704.0
+Primera,Deporte y Recreación,BARRANQUILLA,17732105954.0
+Primera,Deporte y Recreación,BELLO,1977485931.0
+Primera,Deporte y Recreación,BUCARAMANGA,11039186342.0
+Primera,Deporte y Recreación,BUENAVENTURA,2149020214.0
+Primera,Deporte y Recreación,CARTAGENA DE INDIAS,20452270396.0
+Primera,Deporte y Recreación,CHÍA,7440005782.0
+Primera,Deporte y Recreación,CÚCUTA,2101298458.0
+Primera,Deporte y Recreación,ENVIGADO,22153960469.0
+Primera,Deporte y Recreación,FLORIDABLANCA,661744250.0
+Primera,Deporte y Recreación,FUNZA,10792573932.0
+Primera,Deporte y Recreación,IBAGUÉ,28740645987.0
+Primera,Deporte y Recreación,ITAGÜÍ,10601478033.0
+Primera,Deporte y Recreación,MANIZALES,6649924344.0
+Primera,Deporte y Recreación,MONTERÍA,8655782474.0
+Primera,Deporte y Recreación,MOSQUERA,7497735019.0
+Primera,Deporte y Recreación,NEIVA,6301389060.0
+Primera,Deporte y Recreación,PALMIRA,11804323210.0
+Primera,Deporte y Recreación,PASTO,2454231142.0
+Primera,Deporte y Recreación,PEREIRA,6524366775.0
+Primera,Deporte y Recreación,RIONEGRO,36906204349.0
+Primera,Deporte y Recreación,SABANETA,4034174511.0
+Primera,Deporte y Recreación,SANTA MARTA,12138755808.0
+Primera,Deporte y Recreación,SOACHA,12419106095.0
+Primera,Deporte y Recreación,TUNJA,10284344950.0
+Primera,Deporte y Recreación,VALLEDUPAR,2019220493.0
+Primera,Deporte y Recreación,VILLAVICENCIO,25807421205.0
+Primera,Deporte y Recreación,YUMBO,8368470561.0
+Primera,"Desarrollo comunitario, comercial e industrial",ARMENIA,1488488935.0
+Primera,"Desarrollo comunitario, comercial e industrial",BARRANCABERMEJA,7284926172.0
+Primera,"Desarrollo comunitario, comercial e industrial",BARRANQUILLA,4376762204.0
+Primera,"Desarrollo comunitario, comercial e industrial",BELLO,2058151715.0
+Primera,"Desarrollo comunitario, comercial e industrial",BUCARAMANGA,12920245390.0
+Primera,"Desarrollo comunitario, comercial e industrial",BUENAVENTURA,11150471000.0
+Primera,"Desarrollo comunitario, comercial e industrial",CARTAGENA DE INDIAS,3976609648.0
+Primera,"Desarrollo comunitario, comercial e industrial",CHÍA,1035404094.0
+Primera,"Desarrollo comunitario, comercial e industrial",CÚCUTA,1936609000.0
+Primera,"Desarrollo comunitario, comercial e industrial",ENVIGADO,1220804257.0
+Primera,"Desarrollo comunitario, comercial e industrial",FUNZA,859465771.0
+Primera,"Desarrollo comunitario, comercial e industrial",IBAGUÉ,9773082133.0
+Primera,"Desarrollo comunitario, comercial e industrial",ITAGÜÍ,1483082785.0
+Primera,"Desarrollo comunitario, comercial e industrial",MANIZALES,3555251010.0
+Primera,"Desarrollo comunitario, comercial e industrial",MONTERÍA,664033135.0
+Primera,"Desarrollo comunitario, comercial e industrial",MOSQUERA,743316460.0
+Primera,"Desarrollo comunitario, comercial e industrial",NEIVA,275250000.0
+Primera,"Desarrollo comunitario, comercial e industrial",PALMIRA,5261910401.0
+Primera,"Desarrollo comunitario, comercial e industrial",PASTO,5344453018.0
+Primera,"Desarrollo comunitario, comercial e industrial",PEREIRA,4177541441.0
+Primera,"Desarrollo comunitario, comercial e industrial",RIONEGRO,2355585592.0
+Primera,"Desarrollo comunitario, comercial e industrial",SABANETA,1563919105.0
+Primera,"Desarrollo comunitario, comercial e industrial",SANTA MARTA,10559519865.0
+Primera,"Desarrollo comunitario, comercial e industrial",SOACHA,1007495144.0
+Primera,"Desarrollo comunitario, comercial e industrial",TUNJA,1532489886.0
+Primera,"Desarrollo comunitario, comercial e industrial",VILLAVICENCIO,20797648857.0
+Primera,"Desarrollo comunitario, comercial e industrial",YUMBO,1518043126.0
+Primera,Educación,ARMENIA,126426356254.0
+Primera,Educación,BARRANCABERMEJA,118704256614.0
+Primera,Educación,BARRANQUILLA,331732858897.0
+Primera,Educación,BELLO,138334075013.0
+Primera,Educación,BUCARAMANGA,232833832477.0
+Primera,Educación,BUENAVENTURA,156384058958.0
+Primera,Educación,CARTAGENA DE INDIAS,647550677755.0
+Primera,Educación,CHÍA,54974361669.0
+Primera,Educación,CÚCUTA,310730995758.0
+Primera,Educación,ENVIGADO,69883015601.0
+Primera,Educación,FLORIDABLANCA,81466004046.0
+Primera,Educación,FUNZA,11990042257.0
+Primera,Educación,IBAGUÉ,264131016272.0
+Primera,Educación,ITAGÜÍ,88210143066.0
+Primera,Educación,MANIZALES,176093744660.0
+Primera,Educación,MONTERÍA,687859780100.0
+Primera,Educación,MOSQUERA,44774024291.0
+Primera,Educación,NEIVA,185534866878.0
+Primera,Educación,PALMIRA,118637617828.0
+Primera,Educación,PASTO,207477108808.0
+Primera,Educación,PEREIRA,231701425720.0
+Primera,Educación,RIONEGRO,63617050571.0
+Primera,Educación,SABANETA,31059907682.0
+Primera,Educación,SANTA MARTA,249600009447.0
+Primera,Educación,SOACHA,166976498996.0
+Primera,Educación,TUNJA,627844405503.0
+Primera,Educación,VALLEDUPAR,228724280547.0
+Primera,Educación,VILLAVICENCIO,458934987093.0
+Primera,Educación,YUMBO,64984986857.0
+Primera,Fortalecimiento institucional,ARMENIA,15091276967.0
+Primera,Fortalecimiento institucional,BARRANCABERMEJA,23436807034.0
+Primera,Fortalecimiento institucional,BARRANQUILLA,17102250302.0
+Primera,Fortalecimiento institucional,BELLO,21246834894.0
+Primera,Fortalecimiento institucional,BUCARAMANGA,44815407559.0
+Primera,Fortalecimiento institucional,BUENAVENTURA,30037012102.0
+Primera,Fortalecimiento institucional,CARTAGENA DE INDIAS,25440712672.0
+Primera,Fortalecimiento institucional,CHÍA,5763815894.0
+Primera,Fortalecimiento institucional,CÚCUTA,7767372987.0
+Primera,Fortalecimiento institucional,ENVIGADO,7818517137.0
+Primera,Fortalecimiento institucional,FUNZA,955130163.0
+Primera,Fortalecimiento institucional,IBAGUÉ,10547280019.0
+Primera,Fortalecimiento institucional,ITAGÜÍ,24713129230.0
+Primera,Fortalecimiento institucional,MANIZALES,6122536660.0
+Primera,Fortalecimiento institucional,MONTERÍA,9240755256.0
+Primera,Fortalecimiento institucional,MOSQUERA,9748487155.0
+Primera,Fortalecimiento institucional,PALMIRA,20011989336.0
+Primera,Fortalecimiento institucional,PASTO,5400554906.0
+Primera,Fortalecimiento institucional,PEREIRA,14437586087.0
+Primera,Fortalecimiento institucional,RIONEGRO,7580391786.0
+Primera,Fortalecimiento institucional,SABANETA,6856205375.0
+Primera,Fortalecimiento institucional,SANTA MARTA,5174748974.0
+Primera,Fortalecimiento institucional,SOACHA,10263114830.0
+Primera,Fortalecimiento institucional,TUNJA,1523393543.0
+Primera,Fortalecimiento institucional,VALLEDUPAR,5342496652.0
+Primera,Fortalecimiento institucional,VILLAVICENCIO,5419039742.0
+Primera,Fortalecimiento institucional,YUMBO,4203246678.0
+Primera,Funcionamiento y pensiones,ARMENIA,61797188362.0
+Primera,Funcionamiento y pensiones,BARRANCABERMEJA,112628194023.0
+Primera,Funcionamiento y pensiones,BARRANQUILLA,140943415048.0
+Primera,Funcionamiento y pensiones,BELLO,89908365132.0
+Primera,Funcionamiento y pensiones,BUCARAMANGA,123574722708.0
+Primera,Funcionamiento y pensiones,BUENAVENTURA,77626447107.0
+Primera,Funcionamiento y pensiones,CARTAGENA DE INDIAS,150698673067.0
+Primera,Funcionamiento y pensiones,CHÍA,56998115350.0
+Primera,Funcionamiento y pensiones,CÚCUTA,50575158773.0
+Primera,Funcionamiento y pensiones,ENVIGADO,85615396327.0
+Primera,Funcionamiento y pensiones,FLORIDABLANCA,51978303728.0
+Primera,Funcionamiento y pensiones,FUNZA,35029205469.0
+Primera,Funcionamiento y pensiones,IBAGUÉ,96033223503.0
+Primera,Funcionamiento y pensiones,ITAGÜÍ,69718330188.0
+Primera,Funcionamiento y pensiones,MANIZALES,66753749001.0
+Primera,Funcionamiento y pensiones,MONTERÍA,151027587872.0
+Primera,Funcionamiento y pensiones,MOSQUERA,21116760873.0
+Primera,Funcionamiento y pensiones,NEIVA,65207716821.0
+Primera,Funcionamiento y pensiones,PALMIRA,75471803630.0
+Primera,Funcionamiento y pensiones,PASTO,55867929418.0
+Primera,Funcionamiento y pensiones,PEREIRA,123098595044.0
+Primera,Funcionamiento y pensiones,RIONEGRO,40316175171.0
+Primera,Funcionamiento y pensiones,SABANETA,52383496102.0
+Primera,Funcionamiento y pensiones,SANTA MARTA,64377814902.0
+Primera,Funcionamiento y pensiones,SOACHA,44598415377.0
+Primera,Funcionamiento y pensiones,TUNJA,174303989346.0
+Primera,Funcionamiento y pensiones,VALLEDUPAR,88866318089.0
+Primera,Funcionamiento y pensiones,VILLAVICENCIO,195954658493.0
+Primera,Funcionamiento y pensiones,YUMBO,75095509677.0
+Primera,Medio ambiente,ARMENIA,9685530550.0
+Primera,Medio ambiente,BARRANCABERMEJA,11215194192.0
+Primera,Medio ambiente,BARRANQUILLA,863625000.0
+Primera,Medio ambiente,BELLO,186171028.0
+Primera,Medio ambiente,BUCARAMANGA,2767748758.0
+Primera,Medio ambiente,BUENAVENTURA,3866308655.0
+Primera,Medio ambiente,CHÍA,6717891821.0
+Primera,Medio ambiente,CÚCUTA,22744846057.0
+Primera,Medio ambiente,ENVIGADO,31810254856.0
+Primera,Medio ambiente,FLORIDABLANCA,14152352338.0
+Primera,Medio ambiente,FUNZA,5571481238.0
+Primera,Medio ambiente,IBAGUÉ,29950281030.0
+Primera,Medio ambiente,ITAGÜÍ,16404381799.0
+Primera,Medio ambiente,MANIZALES,25816074970.0
+Primera,Medio ambiente,MONTERÍA,3556509545.0
+Primera,Medio ambiente,MOSQUERA,6041628588.0
+Primera,Medio ambiente,NEIVA,330215000.0
+Primera,Medio ambiente,PALMIRA,13273725939.0
+Primera,Medio ambiente,PASTO,14745936524.0
+Primera,Medio ambiente,PEREIRA,17262550969.0
+Primera,Medio ambiente,RIONEGRO,14810548926.0
+Primera,Medio ambiente,SABANETA,2373311241.0
+Primera,Medio ambiente,SANTA MARTA,11011496152.0
+Primera,Medio ambiente,SOACHA,623131541.0
+Primera,Medio ambiente,TUNJA,11783431357.0
+Primera,Medio ambiente,VILLAVICENCIO,10069892834.0
+Primera,Medio ambiente,YUMBO,8385711085.0
+Primera,Otros,ARMENIA,1676151419554.0
+Primera,Otros,BARRANCABERMEJA,2037414041916.0
+Primera,Otros,BARRANQUILLA,4572040564918.0
+Primera,Otros,BELLO,1721022616983.0
+Primera,Otros,BUCARAMANGA,3335754863027.0
+Primera,Otros,BUENAVENTURA,2122481621245.0
+Primera,Otros,CARTAGENA DE INDIAS,4793633372922.0
+Primera,Otros,CHÍA,1014309299611.0
+Primera,Otros,CÚCUTA,4072720017942.0
+Primera,Otros,ENVIGADO,1707484181339.0
+Primera,Otros,FLORIDABLANCA,1582769718151.0
+Primera,Otros,FUNZA,504877961026.0
+Primera,Otros,IBAGUÉ,2971523193823.0
+Primera,Otros,ITAGÜÍ,1736601204042.0
+Primera,Otros,MANIZALES,1912793366657.0
+Primera,Otros,MONTERÍA,5015420479046.0
+Primera,Otros,MOSQUERA,674843604381.0
+Primera,Otros,NEIVA,2031403063951.0
+Primera,Otros,PALMIRA,1899068492630.0
+Primera,Otros,PASTO,2809962788787.0
+Primera,Otros,PEREIRA,2913301026972.0
+Primera,Otros,RIONEGRO,1754932191851.0
+Primera,Otros,SABANETA,871891346097.0
+Primera,Otros,SANTA MARTA,2987767535959.0
+Primera,Otros,SOACHA,1708279220725.0
+Primera,Otros,TUNJA,5687967012407.0
+Primera,Otros,VALLEDUPAR,2889908080470.0
+Primera,Otros,VILLAVICENCIO,5941622071921.0
+Primera,Otros,YUMBO,1206319253538.0
+Primera,Salud,ARMENIA,98158040647.0
+Primera,Salud,BARRANCABERMEJA,84282868033.0
+Primera,Salud,BARRANQUILLA,123831349730.0
+Primera,Salud,BELLO,93863045808.0
+Primera,Salud,BUCARAMANGA,156322799762.0
+Primera,Salud,BUENAVENTURA,168969754794.0
+Primera,Salud,CARTAGENA DE INDIAS,88278128211.0
+Primera,Salud,CHÍA,16006855700.0
+Primera,Salud,CÚCUTA,395195019444.0
+Primera,Salud,ENVIGADO,25278380897.0
+Primera,Salud,FLORIDABLANCA,72645275054.0
+Primera,Salud,FUNZA,11871738900.0
+Primera,Salud,IBAGUÉ,181905184010.0
+Primera,Salud,ITAGÜÍ,47453308126.0
+Primera,Salud,MANIZALES,83148928469.0
+Primera,Salud,MONTERÍA,70756852492.0
+Primera,Salud,MOSQUERA,18732078487.0
+Primera,Salud,NEIVA,152083527907.0
+Primera,Salud,PALMIRA,112266296248.0
+Primera,Salud,PASTO,201447991195.0
+Primera,Salud,PEREIRA,152353697908.0
+Primera,Salud,RIONEGRO,26405728499.0
+Primera,Salud,SABANETA,11884894797.0
+Primera,Salud,SANTA MARTA,253907859824.0
+Primera,Salud,SOACHA,97428225743.0
+Primera,Salud,TUNJA,156997902968.0
+Primera,Salud,VALLEDUPAR,240533878756.0
+Primera,Salud,VILLAVICENCIO,275685890662.0
+Primera,Salud,YUMBO,35047810940.0
+Primera,Sector eléctrico,ARMENIA,43096667.0
+Primera,Sector eléctrico,BARRANCABERMEJA,26025761143.0
+Primera,Sector eléctrico,BARRANQUILLA,8153446781.0
+Primera,Sector eléctrico,BELLO,5111090380.0
+Primera,Sector eléctrico,BUCARAMANGA,42709054404.0
+Primera,Sector eléctrico,BUENAVENTURA,69744000.0
+Primera,Sector eléctrico,CHÍA,4140777827.0
+Primera,Sector eléctrico,CÚCUTA,3680919756.0
+Primera,Sector eléctrico,ENVIGADO,9332661548.0
+Primera,Sector eléctrico,ITAGÜÍ,8718642198.0
+Primera,Sector eléctrico,MOSQUERA,1198225745.0
+Primera,Sector eléctrico,NEIVA,10175434411.0
+Primera,Sector eléctrico,PALMIRA,16041640880.0
+Primera,Sector eléctrico,PASTO,15006717890.0
+Primera,Sector eléctrico,PEREIRA,16224605679.0
+Primera,Sector eléctrico,RIONEGRO,6997800598.0
+Primera,Sector eléctrico,SABANETA,4812792808.0
+Primera,Sector eléctrico,SANTA MARTA,14360192068.0
+Primera,Sector eléctrico,TUNJA,8357132030.0
+Primera,Sector eléctrico,VILLAVICENCIO,32824185081.0
+Primera,Sector eléctrico,YUMBO,10738025581.0
+Primera,Sector minero,CARTAGENA DE INDIAS,644313415.0
+Primera,Sector minero,TUNJA,1864568585.0
+Primera,Servicio de la deuda,BARRANCABERMEJA,23073514513.0
+Primera,Servicio de la deuda,BARRANQUILLA,47052339321.0
+Primera,Servicio de la deuda,BUCARAMANGA,39323555995.0
+Primera,Servicio de la deuda,CHÍA,6322373444.0
+Primera,Servicio de la deuda,CÚCUTA,13865230332.0
+Primera,Servicio de la deuda,ENVIGADO,35135702725.0
+Primera,Servicio de la deuda,IBAGUÉ,2425156840.0
+Primera,Servicio de la deuda,ITAGÜÍ,33773256168.0
+Primera,Servicio de la deuda,MANIZALES,12660919328.0
+Primera,Servicio de la deuda,MONTERÍA,11766828735.0
+Primera,Servicio de la deuda,NEIVA,10044702046.0
+Primera,Servicio de la deuda,PALMIRA,24412740449.0
+Primera,Servicio de la deuda,PASTO,12335143698.0
+Primera,Servicio de la deuda,RIONEGRO,14143026874.0
+Primera,Servicio de la deuda,SABANETA,8078292385.0
+Primera,Servicio de la deuda,SANTA MARTA,17609817449.0
+Primera,Servicio de la deuda,SOACHA,12526507992.0
+Primera,Servicio de la deuda,TUNJA,40265294574.0
+Primera,Servicio de la deuda,VALLEDUPAR,28281430128.0
+Primera,Servicio de la deuda,VILLAVICENCIO,38354365990.0
+Primera,Servicio de la deuda,YUMBO,23822206277.0
+Primera,Transporte,ARMENIA,34451265430.0
+Primera,Transporte,BARRANCABERMEJA,3170943235.0
+Primera,Transporte,BARRANQUILLA,32268528096.0
+Primera,Transporte,BELLO,3496126447.0
+Primera,Transporte,BUCARAMANGA,22944665105.0
+Primera,Transporte,BUENAVENTURA,3889160493.0
+Primera,Transporte,CARTAGENA DE INDIAS,17623690791.0
+Primera,Transporte,CHÍA,15329441280.0
+Primera,Transporte,CÚCUTA,23900289760.0
+Primera,Transporte,ENVIGADO,50459710911.0
+Primera,Transporte,FUNZA,15505051300.0
+Primera,Transporte,IBAGUÉ,22119006547.0
+Primera,Transporte,ITAGÜÍ,24791426207.0
+Primera,Transporte,MANIZALES,19745590180.0
+Primera,Transporte,MONTERÍA,20807038565.0
+Primera,Transporte,MOSQUERA,10516225203.0
+Primera,Transporte,NEIVA,6477137940.0
+Primera,Transporte,PALMIRA,6471840156.0
+Primera,Transporte,PASTO,54272795963.0
+Primera,Transporte,PEREIRA,16860117109.0
+Primera,Transporte,RIONEGRO,66235557437.0
+Primera,Transporte,SABANETA,25773244236.0
+Primera,Transporte,SANTA MARTA,16602474272.0
+Primera,Transporte,SOACHA,14829137225.0
+Primera,Transporte,TUNJA,100635400562.0
+Primera,Transporte,VALLEDUPAR,3737745609.0
+Primera,Transporte,VILLAVICENCIO,44212844856.0
+Primera,Transporte,YUMBO,4982175428.0
+Primera,Vivienda,ARMENIA,80000000.0
+Primera,Vivienda,BARRANCABERMEJA,12390714193.0
+Primera,Vivienda,BARRANQUILLA,11097074086.0
+Primera,Vivienda,BELLO,1188737693.0
+Primera,Vivienda,BUCARAMANGA,2000105100.0
+Primera,Vivienda,BUENAVENTURA,49972876.0
+Primera,Vivienda,CHÍA,6733066802.0
+Primera,Vivienda,CÚCUTA,368050000.0
+Primera,Vivienda,ENVIGADO,3215904516.0
+Primera,Vivienda,FUNZA,24040800.0
+Primera,Vivienda,IBAGUÉ,1134630268.0
+Primera,Vivienda,ITAGÜÍ,5827228559.0
+Primera,Vivienda,MANIZALES,458979367.0
+Primera,Vivienda,MONTERÍA,4644735842.0
+Primera,Vivienda,MOSQUERA,297120748.0
+Primera,Vivienda,NEIVA,421776666.0
+Primera,Vivienda,PALMIRA,371399999.0
+Primera,Vivienda,PASTO,4134375332.0
+Primera,Vivienda,PEREIRA,7885140489.0
+Primera,Vivienda,RIONEGRO,15014340530.0
+Primera,Vivienda,SABANETA,4000000000.0
+Primera,Vivienda,SANTA MARTA,1560000000.0
+Primera,Vivienda,TUNJA,4201692321.0
+Primera,Vivienda,VALLEDUPAR,18732724634.0
+Primera,Vivienda,VILLAVICENCIO,23717160972.0
+Primera,Vivienda,YUMBO,4064930184.0
