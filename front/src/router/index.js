@@ -2,8 +2,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Demo from '../views/Demo.vue';
-import Demo2 from '../views/Demo2.vue';
-import Tarea1 from '../views/Tarea1.vue';
+import DifferencesViz from '../views/DifferencesViz.vue';
+import RatioViz from '../views/RatioViz.vue';
 
 Vue.use(VueRouter);
 
@@ -21,7 +21,12 @@ const routes = [
   {
     path: '/diferencias',
     name: 'differences',
-    component: Demo2,
+    component: DifferencesViz,
+  },
+  {
+    path: '/relacion-ingreso-gasto',
+    name: 'ratio',
+    component: RatioViz,
   },
   {
     path: '/inconsistencias',
@@ -29,12 +34,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-  },
-  {
-    path: '/tarea1',
-    name: 'tarea1',
-    component: Tarea1,
+    component: () => import(/* webpackChunkName: "about" */ '../views/InconsistenciesViz.vue'),
   },
 ];
 

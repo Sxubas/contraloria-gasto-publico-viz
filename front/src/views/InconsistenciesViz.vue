@@ -1,17 +1,7 @@
 <template>
   <div class="about">
-    <iframe class="viz-iframe" :name="iframeName" src="https://contraloria-2c65d.firebaseapp.com" frameborder="0"></iframe>
-    <br>
-    <br>
-    <!-- <div class="hex"></div> -->
-
-    <!-- <svg class="svg">
-      <g>
-        <rect x=50 y=50 class="svg-hex-top"></rect>
-        <rect x=50 y=50 class="svg-hex-center"></rect>
-        <rect x=50 y=50 class="svg-hex-bottom"></rect>
-      </g>
-    </svg> -->
+    <iframe class="viz-iframe" :name="iframeName" src="https://contraloria-2c65d.firebaseapp.com" frameborder="0">
+    </iframe>
   </div>
 </template>
 

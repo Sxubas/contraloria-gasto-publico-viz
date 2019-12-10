@@ -285,15 +285,14 @@ export default {
         this.fetchedData = true;
       }
 
-      const { data, destinations } = this;
       let { deptos } = this;
       const vue = this;
 
       deptos = this.sortDeptos(deptos);
 
-      console.log(data);
+      /* console.log(data);
       console.log(deptos);
-      console.log(destinations);
+      console.log(destinations); */
 
       // Other constants
       const scale = this.createDivergentScale();
