@@ -35,7 +35,7 @@ const convert = (path, saveAccounts, saveTrees) => {
     }
   
     if (saveAccounts) {
-      fs.writeFileSync(`./results/gastos-depto/spend-accounts.json`, JSON.stringify(accounts));
+      fs.writeFileSync(`./results/gastos-depto/${depto}-accounts.json`, JSON.stringify(accounts));
     }
   
     const tree = convertToTree(accounts, []);

@@ -9,14 +9,13 @@ module.exports = {
     return Object.keys(departments);
   },
   getAllMunicipalities(data) {
-    // TODO: implement correctly
-    const departments = {};
+    const municipalities = {};
     for (const tx of data) {
-      if (!departments[tx.NOM_DEPAR]) {
-        departments[tx.NOM_DEPAR] = true;
+      if (!municipalities[tx.NOM_MUN]) {
+        municipalities[tx.NOM_MUN] = true;
       }
     }
-    return Object.keys(departments);
+    return Object.keys(municipalities);
   },
   codeToSimplifiedDestination(rawCode) {
     let code = rawCode;

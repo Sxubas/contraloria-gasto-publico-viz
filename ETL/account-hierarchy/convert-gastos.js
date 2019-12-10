@@ -76,4 +76,4 @@ const print = (...args) => console.log(...args);
 
 const accounts = convert('./../data/gastos-filtrado-con-codigos.csv', true);
 const tree = convertToTree(accounts, []);
-fs.writeFileSync('./results/gastos-tree.json', JSON.stringify(tree));
+fs.writeFileSync('./results/gastos-tree.json', JSON.stringify(tree)); // used for treemap viz
