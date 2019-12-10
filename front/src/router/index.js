@@ -19,8 +19,8 @@ const routes = [
     component: Demo,
   },
   {
-    path: '/demo2',
-    name: 'demo2',
+    path: '/diferencias',
+    name: 'differences',
     component: Demo2,
   },
   {

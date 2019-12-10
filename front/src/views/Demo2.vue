@@ -41,7 +41,9 @@
           </option>
         </select>
       </template>
-      <span>Ordenar departamentos: </span>
+      <span>
+        Ordenar {{dataSource === 'grouped-differences-MM.json' ? 'departamentos' : 'municipios'}}:
+      </span>
       <select v-model="deptosSortingMethod">
         <option value="alphabetical">Orden alfabético</option>
         <option value="most-positives-first">Los que tengan más positivos primero</option>
@@ -65,7 +67,9 @@
     </div>
     <div class="viz-container">
       <div class="viz-top-axis">
-        <span class="departments-legend">Departamentos</span>
+        <span class="departments-legend">
+          {{dataSource === 'grouped-differences-MM.json' ? 'Departamentos' : 'Municipios'}}
+        </span>
         <span class="destinations-legend">Destinos</span>
       </div>
       <div id="viz">
@@ -275,6 +279,7 @@ export default {
         // Only run once. Sorry
         if (!this.fetchedData) {
           this.deptosNames = Object.keys(data);
+          this.deptosNames.sort((a, b) => a.localeCompare(b));
         }
 
         this.fetchedData = true;
@@ -495,6 +500,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 8px;
 }
 
 .viz-top-axis {

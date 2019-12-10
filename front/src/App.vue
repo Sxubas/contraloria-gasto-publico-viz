@@ -10,7 +10,7 @@
       </div>
       <div class="header-right-container">
         <router-link to="/demo">Treemap cuentas</router-link>
-        <router-link to="/demo2">Matriz diferencias</router-link>
+        <router-link to="/diferencias">Matriz diferencias</router-link>
       </div>
     </div>
     <router-view/>
